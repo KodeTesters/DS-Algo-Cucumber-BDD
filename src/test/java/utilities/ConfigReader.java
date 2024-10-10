@@ -1,6 +1,7 @@
 package utilities;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+//import java.io.IOException;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -81,7 +82,6 @@ public class ConfigReader {
             throw new RuntimeException("Excel file path not specified in the Configuration.properties file.");
     }
 
-    //Array
     // Array
     public static String arrayPageURL() {
         String arrayPageurl = properties.getProperty("Arraypage");

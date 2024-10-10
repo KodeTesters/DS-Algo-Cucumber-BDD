@@ -6,14 +6,12 @@ import io.cucumber.testng.CucumberOptions;
 //import org.junit.runner.RunWith;
 import org.testng.annotations.DataProvider;
 
-	//@RunWith(Cucumber.class) //Junit executions
-
 	@CucumberOptions(
 			plugin = {"pretty", "html:target/ds_Algo_Reports.html",
 					"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, //reporting purpose
 			monochrome=true,  //console output
-			//tags = "@CrossBrowserFirefox", //tags from feature file
+			//tags = "", //tags from feature file
 			features = {"src/test/resources/features"}, //location of feature files
 			glue= {"stepDefinitions","hooks"}) //location of step definition files
 
@@ -26,9 +24,6 @@ import org.testng.annotations.DataProvider;
 					
 		return super.scenarios();
 	    }
-
-
-
 		}
 
 	

@@ -89,6 +89,8 @@ public class Array_Steps {
         ExcelReader reader = new ExcelReader();
 
         List<Map<String, String>> testdata = reader.getData(Excelpath, SheetName);
+        array.explicitWait(1000);
+
         PythonCode = testdata.get(RowNumber).get("PythonCode");
         ExpectedResult=testdata.get(RowNumber).get("Output");
         LoggerLoad.info("Expected Result is "+ExpectedResult);
@@ -96,12 +98,15 @@ public class Array_Steps {
         LoggerLoad.info("User enters PythonCode as \" " + PythonCode);
         if ( PythonCode!= null )
             array.fetchPythonCode(PythonCode);
+        array.explicitWait(1000);
+
 
     }
 
     @When("User clicks on Run button")
     public void user_clicks_on_run_button()
     {
+        array.explicitWait(1000);
         LoggerLoad.info("User clicks on Run Button");
         array.clickRunButton();
 
