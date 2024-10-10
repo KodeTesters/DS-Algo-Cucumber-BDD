@@ -1,10 +1,9 @@
-
 @Treepage
 Feature: To Validate Tree Page
 
   Background: The user is logged in to DS Algo portal
     Given The user is on Signin page of DS Algo portal
-    When The user enter valid "kodetesters" and "numpyninja24"
+    When The user enter valid "NinjaTesters1" and "Secret123#"
     And The user click on login button
     Then The user redirected to homepage
 
@@ -329,3 +328,4 @@ Feature: To Validate Tree Page
     When The user clicks on the Overview of Trees link
     When The user clicks on the Practice Questions in Overview of Trees
     Then The user should be directed to Practice Questions of tree page Page
+
