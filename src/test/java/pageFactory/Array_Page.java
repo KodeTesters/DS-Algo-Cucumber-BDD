@@ -20,7 +20,7 @@ public class Array_Page {
     Utility_Methods util=new Utility_Methods();
 
     String tryEditorURL=ConfigReader.tryEditorURL();
-    String url =ConfigReader.applicationUrl();
+    //String url =ConfigReader.applicationUrl();
     String arrayPageurl=ConfigReader.arrayPageURL();
 
     @FindBy (xpath="//a[@href='arrays-in-python']")WebElement arraysInPythonLink;
@@ -167,6 +167,12 @@ public class Array_Page {
         squaresOfASortedArrayLink.click();
     }
 
-
+    public void explicitWait(int milliseconds) {
+        try {
+            Thread.sleep(milliseconds);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 
 }
