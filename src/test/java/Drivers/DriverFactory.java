@@ -17,7 +17,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverFactory {
 
-    public static WebDriver driver;
+    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+
+    
     public static WebDriverWait wait;
     FirefoxOptions firefoxoptions=new FirefoxOptions();
     ChromeOptions chromeoptions=new ChromeOptions();
@@ -52,15 +54,19 @@ public class DriverFactory {
         return driver;
 
     }
+   
     public static WebDriver getDriver() {
-        if (driver == null) {
-            driver = new FirefoxDriver();
-            return driver;
-        } else {
-            return driver;
-
+        if (driver.get() == null) {
+            // Set the path to the chromedriver executable
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Pavithra\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+            driver.set(new ChromeDriver());
         }
+        return driver.get();
+    }
 
+    public static void removeDriver() {
+        driver.get().quit();
+        driver.remove();
     }
 
     public static void closeallDriver() {
