@@ -1,0 +1,1317 @@
+[INFO ] 2024-10-10 15:57:24.390 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-10-10 15:57:24.392 [main] LoggerLoad - Get Browser Type from Properties
+[INFO ] 2024-10-10 15:57:28.764 [main] LoggerLoad - Intializingchromedriver
+[INFO ] 2024-10-10 15:57:29.217 [main] LoggerLoad - -----DSAlgo Portal-----
+[INFO ] 2024-10-10 15:57:29.470 [main] LoggerLoad - -----Click on get Started button----
+[INFO ] 2024-10-10 15:57:29.886 [main] LoggerLoad - ----User is onNumpyNinjaPage----
+[INFO ] 2024-10-10 15:57:30.002 [main] LoggerLoad - -----User Clicks on Dropdown Before Sign in-----
+[INFO ] 2024-10-10 15:57:30.107 [main] LoggerLoad - User click on Arrays
+[INFO ] 2024-10-10 15:57:30.391 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 15:57:30.420 [main] LoggerLoad - -----User Clicks on Dropdown Before Sign in-----
+[INFO ] 2024-10-10 15:57:30.498 [main] LoggerLoad - User click on Linked List
+[INFO ] 2024-10-10 15:57:30.769 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 15:57:30.801 [main] LoggerLoad - -----User Clicks on Dropdown Before Sign in-----
+[INFO ] 2024-10-10 15:57:30.876 [main] LoggerLoad - User click on Stack
+[INFO ] 2024-10-10 15:57:31.152 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 15:57:31.170 [main] LoggerLoad - -----User Clicks on Dropdown Before Sign in-----
+[INFO ] 2024-10-10 15:57:31.240 [main] LoggerLoad - User click on Queue
+[INFO ] 2024-10-10 15:57:31.482 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 15:57:31.493 [main] LoggerLoad - -----User Clicks on Dropdown Before Sign in-----
+[INFO ] 2024-10-10 15:57:31.546 [main] LoggerLoad - User click on Tree
+[INFO ] 2024-10-10 15:57:31.761 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 15:57:31.779 [main] LoggerLoad - -----User Clicks on Dropdown Before Sign in-----
+[INFO ] 2024-10-10 15:57:31.834 [main] LoggerLoad - User click on Graph
+[INFO ] 2024-10-10 15:57:32.061 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 15:57:32.098 [main] LoggerLoad - click Get Startedlink on  DataStructures 
+[INFO ] 2024-10-10 15:57:32.273 [main] LoggerLoad - User Clicks on Get Started link before Sign in
+[INFO ] 2024-10-10 15:57:32.294 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 15:57:32.327 [main] LoggerLoad - click Get Startedlink on Array 
+[INFO ] 2024-10-10 15:57:32.471 [main] LoggerLoad - User Clicks on Get Started link before Sign in
+[INFO ] 2024-10-10 15:57:32.489 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 15:57:32.517 [main] LoggerLoad - click Get Startedlink on LinkedList
+[INFO ] 2024-10-10 15:57:32.672 [main] LoggerLoad - User Clicks on Get Started link before Sign in
+[INFO ] 2024-10-10 15:57:32.696 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 15:57:32.726 [main] LoggerLoad - click Get Startedlink on stack
+[INFO ] 2024-10-10 15:57:32.856 [main] LoggerLoad - User Clicks on Get Started link before Sign in
+[INFO ] 2024-10-10 15:57:32.874 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 15:57:32.904 [main] LoggerLoad - click Get Startedlink on queue 
+[INFO ] 2024-10-10 15:57:33.057 [main] LoggerLoad - User Clicks on Get Started link before Sign in
+[INFO ] 2024-10-10 15:57:33.080 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 15:57:33.121 [main] LoggerLoad - click Get Startedlink on Tree 
+[INFO ] 2024-10-10 15:57:33.303 [main] LoggerLoad - User Clicks on Get Started link before Sign in
+[INFO ] 2024-10-10 15:57:33.332 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 15:57:33.366 [main] LoggerLoad - click Get Startedlink on Graph 
+[INFO ] 2024-10-10 15:57:33.530 [main] LoggerLoad - User Clicks on Get Started link before Sign in
+[INFO ] 2024-10-10 15:57:33.591 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 15:57:33.661 [main] LoggerLoad - ---User Clicks on Sign In link----
+[INFO ] 2024-10-10 15:57:33.886 [main] LoggerLoad - User redirected to Login page 
+[INFO ] 2024-10-10 15:57:33.891 [main] LoggerLoad - Title of current page is : Login
+[INFO ] 2024-10-10 15:57:33.928 [main] LoggerLoad - ----User Clicks on Register link---
+[INFO ] 2024-10-10 15:57:34.085 [main] LoggerLoad - User redirected to Registraion page 
+[INFO ] 2024-10-10 15:57:34.104 [main] LoggerLoad - Title of current page is : Registration
+[INFO ] 2024-10-10 15:57:34.179 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 15:57:34.262 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 15:57:34.327 [main] LoggerLoad - verify the warn message
+[WARN ] 2024-10-10 15:57:34.374 [main] LoggerLoad - Please fill out this field.
+[INFO ] 2024-10-10 15:57:34.414 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 15:57:34.481 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 15:57:34.701 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 15:57:34.758 [main] LoggerLoad - verify the warn message
+[WARN ] 2024-10-10 15:57:34.790 [main] LoggerLoad - Please fill out this field.
+[INFO ] 2024-10-10 15:57:34.835 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 15:57:34.926 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 15:57:35.140 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 15:57:35.339 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 15:57:35.412 [main] LoggerLoad - verify the warn message
+[WARN ] 2024-10-10 15:57:35.472 [main] LoggerLoad - Please fill out this field.
+[INFO ] 2024-10-10 15:57:35.510 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 15:57:35.834 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 15:57:35.970 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 15:57:36.201 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 15:57:36.627 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 15:57:36.809 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 15:57:36.848 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 15:57:36.883 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 15:57:36.971 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 15:57:37.201 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 15:57:37.464 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 15:57:37.714 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 15:57:37.860 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 15:57:37.896 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 15:57:37.920 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 15:57:38.005 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 15:57:38.240 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 15:57:38.429 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 15:57:38.706 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 15:57:38.868 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 15:57:38.900 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 15:57:38.921 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 15:57:38.996 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 15:57:39.346 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 15:57:39.706 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 15:57:40.058 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 15:57:40.228 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 15:57:40.342 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 15:57:40.387 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 15:57:42.517 [main] LoggerLoad - User Enter username as " ninjatesters "and Password as " Team104" Confirm password as" Team104
+[INFO ] 2024-10-10 15:57:42.517 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 15:57:42.844 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 15:57:43.144 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 15:57:43.636 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 15:57:44.029 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 15:57:44.181 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 15:57:44.326 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 15:57:44.737 [main] LoggerLoad - User Enter username as " ninjatesters "and Password as " team104103" Confirm password as" team10103
+[INFO ] 2024-10-10 15:57:44.737 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 15:57:45.229 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 15:57:45.623 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 15:57:45.983 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 15:57:46.097 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 15:57:46.202 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 15:57:46.412 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 15:57:46.774 [main] LoggerLoad - User Enter username as " Numpy "and Password as " 123456789" Confirm password as" 123456789
+[INFO ] 2024-10-10 15:57:46.775 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 15:57:47.195 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 15:57:47.521 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 15:57:47.916 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 15:57:48.201 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 15:57:48.236 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 15:57:48.283 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 15:57:48.590 [main] LoggerLoad - User Enter username as " numpy "and Password as " ninja10" Confirm password as" ninja10
+[INFO ] 2024-10-10 15:57:48.591 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 15:57:48.926 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 15:57:49.255 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 15:57:49.513 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 15:57:49.637 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 15:57:49.704 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 15:57:49.735 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 15:57:49.990 [main] LoggerLoad - User Enter username as " kodetesters "and Password as " numpyninja24" Confirm password as" numpyninja24
+[INFO ] 2024-10-10 15:57:49.990 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 15:57:50.266 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 15:57:50.546 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 15:57:50.836 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 15:57:50.985 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 15:57:51.082 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 15:57:51.133 [main] LoggerLoad - ------User is On Sign in page------
+[INFO ] 2024-10-10 15:57:51.278 [main] LoggerLoad - ----User Clicks on Register Link-----
+[INFO ] 2024-10-10 15:57:51.669 [main] LoggerLoad - ----User redirected to Page----Registration
+[INFO ] 2024-10-10 15:57:51.765 [main] LoggerLoad - ------User is On Sign in page------
+[INFO ] 2024-10-10 15:57:51.891 [main] LoggerLoad - User is Clicking login button with empty fields
+[INFO ] 2024-10-10 15:57:52.175 [main] LoggerLoad - ------User is On Sign in page------
+[INFO ] 2024-10-10 15:57:52.313 [main] LoggerLoad - --User Enters Only the User name--
+[INFO ] 2024-10-10 15:57:52.516 [main] LoggerLoad - ----User can seePlease fill out this field.-----
+[INFO ] 2024-10-10 15:57:52.564 [main] LoggerLoad - ------User is On Sign in page------
+[INFO ] 2024-10-10 15:57:52.710 [main] LoggerLoad - User Enters Only Password
+[INFO ] 2024-10-10 15:57:52.865 [main] LoggerLoad - User can seePlease fill out this field.
+[INFO ] 2024-10-10 15:57:52.891 [main] LoggerLoad - ------User is On Sign in page------
+[INFO ] 2024-10-10 15:57:53.320 [main] LoggerLoad - -----User Clicks on Login button-----
+[INFO ] 2024-10-10 15:57:53.683 [main] LoggerLoad - The actual Alert is:Invalid Username and Password
+[INFO ] 2024-10-10 15:57:53.746 [main] LoggerLoad - ------User is On Sign in page------
+[INFO ] 2024-10-10 15:57:54.033 [main] LoggerLoad - User Enter username as " kodetesters "and Password as " numpyninja24" 
+[INFO ] 2024-10-10 15:57:59.745 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-10-10 16:18:42.340 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-10-10 16:18:42.342 [main] LoggerLoad - Get Browser Type from Properties
+[INFO ] 2024-10-10 16:18:43.504 [main] LoggerLoad - Intializingchromedriver
+[INFO ] 2024-10-10 16:18:43.828 [main] LoggerLoad - -----DSAlgo Portal-----
+[INFO ] 2024-10-10 16:18:44.086 [main] LoggerLoad - -----Click on get Started button----
+[INFO ] 2024-10-10 16:18:44.415 [main] LoggerLoad - ----User is onNumpyNinjaPage----
+[INFO ] 2024-10-10 16:18:44.487 [main] LoggerLoad - -----User Clicks on Dropdown Before Sign in-----
+[INFO ] 2024-10-10 16:18:44.528 [main] LoggerLoad - User click on Arrays
+[INFO ] 2024-10-10 16:18:44.748 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 16:18:44.772 [main] LoggerLoad - -----User Clicks on Dropdown Before Sign in-----
+[INFO ] 2024-10-10 16:18:44.823 [main] LoggerLoad - User click on Linked List
+[INFO ] 2024-10-10 16:18:45.027 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 16:18:45.055 [main] LoggerLoad - -----User Clicks on Dropdown Before Sign in-----
+[INFO ] 2024-10-10 16:18:45.107 [main] LoggerLoad - User click on Stack
+[INFO ] 2024-10-10 16:18:45.676 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 16:18:45.686 [main] LoggerLoad - -----User Clicks on Dropdown Before Sign in-----
+[INFO ] 2024-10-10 16:18:45.729 [main] LoggerLoad - User click on Queue
+[INFO ] 2024-10-10 16:18:45.934 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 16:18:45.944 [main] LoggerLoad - -----User Clicks on Dropdown Before Sign in-----
+[INFO ] 2024-10-10 16:18:45.988 [main] LoggerLoad - User click on Tree
+[INFO ] 2024-10-10 16:18:46.193 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 16:18:46.207 [main] LoggerLoad - -----User Clicks on Dropdown Before Sign in-----
+[INFO ] 2024-10-10 16:18:46.251 [main] LoggerLoad - User click on Graph
+[INFO ] 2024-10-10 16:18:46.456 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 16:18:46.497 [main] LoggerLoad - click Get Startedlink on  DataStructures 
+[INFO ] 2024-10-10 16:18:46.661 [main] LoggerLoad - User Clicks on Get Started link before Sign in
+[INFO ] 2024-10-10 16:18:46.680 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 16:18:46.712 [main] LoggerLoad - click Get Startedlink on Array 
+[INFO ] 2024-10-10 16:18:46.846 [main] LoggerLoad - User Clicks on Get Started link before Sign in
+[INFO ] 2024-10-10 16:18:46.868 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 16:18:46.897 [main] LoggerLoad - click Get Startedlink on LinkedList
+[INFO ] 2024-10-10 16:18:47.048 [main] LoggerLoad - User Clicks on Get Started link before Sign in
+[INFO ] 2024-10-10 16:18:47.079 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 16:18:47.114 [main] LoggerLoad - click Get Startedlink on stack
+[INFO ] 2024-10-10 16:18:47.254 [main] LoggerLoad - User Clicks on Get Started link before Sign in
+[INFO ] 2024-10-10 16:18:47.276 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 16:18:47.308 [main] LoggerLoad - click Get Startedlink on queue 
+[INFO ] 2024-10-10 16:18:47.444 [main] LoggerLoad - User Clicks on Get Started link before Sign in
+[INFO ] 2024-10-10 16:18:47.471 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 16:18:47.501 [main] LoggerLoad - click Get Startedlink on Tree 
+[INFO ] 2024-10-10 16:18:47.660 [main] LoggerLoad - User Clicks on Get Started link before Sign in
+[INFO ] 2024-10-10 16:18:47.697 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 16:18:47.728 [main] LoggerLoad - click Get Startedlink on Graph 
+[INFO ] 2024-10-10 16:18:47.877 [main] LoggerLoad - User Clicks on Get Started link before Sign in
+[INFO ] 2024-10-10 16:18:47.900 [main] LoggerLoad - The actual Message:You are not logged in
+[INFO ] 2024-10-10 16:18:47.910 [main] LoggerLoad - ---User Clicks on Sign In link----
+[INFO ] 2024-10-10 16:18:48.059 [main] LoggerLoad - User redirected to Login page 
+[INFO ] 2024-10-10 16:18:48.076 [main] LoggerLoad - Title of current page is : Login
+[INFO ] 2024-10-10 16:18:48.094 [main] LoggerLoad - ----User Clicks on Register link---
+[INFO ] 2024-10-10 16:18:48.279 [main] LoggerLoad - User redirected to Registraion page 
+[INFO ] 2024-10-10 16:18:48.319 [main] LoggerLoad - Title of current page is : Registration
+[INFO ] 2024-10-10 16:18:48.348 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 16:18:48.443 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 16:18:48.512 [main] LoggerLoad - verify the warn message
+[WARN ] 2024-10-10 16:18:48.547 [main] LoggerLoad - Please fill out this field.
+[INFO ] 2024-10-10 16:18:48.558 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 16:18:48.642 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 16:18:48.884 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 16:18:48.959 [main] LoggerLoad - verify the warn message
+[WARN ] 2024-10-10 16:18:48.991 [main] LoggerLoad - Please fill out this field.
+[INFO ] 2024-10-10 16:18:49.031 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 16:18:49.109 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 16:18:49.344 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 16:18:49.569 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 16:18:49.619 [main] LoggerLoad - verify the warn message
+[WARN ] 2024-10-10 16:18:49.686 [main] LoggerLoad - Please fill out this field.
+[INFO ] 2024-10-10 16:18:49.749 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 16:18:49.832 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 16:18:49.978 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 16:18:50.189 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 16:18:50.340 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 16:18:50.479 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 16:18:50.509 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 16:18:50.549 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 16:18:50.630 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 16:18:50.890 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 16:18:51.175 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 16:18:51.404 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 16:18:51.555 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 16:18:51.589 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 16:18:51.627 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 16:18:51.696 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 16:18:51.947 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 16:18:52.103 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 16:18:52.354 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 16:18:52.513 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 16:18:52.542 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 16:18:52.571 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 16:18:52.643 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 16:18:52.876 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 16:18:53.083 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 16:18:53.307 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 16:18:53.489 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 16:18:53.540 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 16:18:53.594 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 16:18:54.991 [main] LoggerLoad - User Enter username as " ninjatesters "and Password as " Team104" Confirm password as" Team104
+[INFO ] 2024-10-10 16:18:54.993 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 16:18:55.202 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 16:18:55.424 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 16:18:55.661 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 16:18:55.810 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 16:18:55.860 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 16:18:55.961 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 16:18:56.252 [main] LoggerLoad - User Enter username as " ninjatesters "and Password as " team104103" Confirm password as" team10103
+[INFO ] 2024-10-10 16:18:56.252 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 16:18:56.606 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 16:18:56.913 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 16:18:57.139 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 16:18:57.298 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 16:18:57.332 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 16:18:57.363 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 16:18:57.568 [main] LoggerLoad - User Enter username as " Numpy "and Password as " 123456789" Confirm password as" 123456789
+[INFO ] 2024-10-10 16:18:57.568 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 16:18:57.835 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 16:18:58.098 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 16:18:58.391 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 16:18:58.695 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 16:18:58.763 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 16:18:58.792 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 16:18:59.011 [main] LoggerLoad - User Enter username as " numpy "and Password as " ninja10" Confirm password as" ninja10
+[INFO ] 2024-10-10 16:18:59.012 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 16:18:59.252 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 16:18:59.465 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 16:18:59.648 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 16:18:59.994 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 16:19:00.035 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 16:19:00.050 [main] LoggerLoad - User is on Register Page
+[INFO ] 2024-10-10 16:19:00.245 [main] LoggerLoad - User Enter username as " kodetesters "and Password as " numpyninja24" Confirm password as" numpyninja24
+[INFO ] 2024-10-10 16:19:00.246 [main] LoggerLoad - Enter User Name
+[INFO ] 2024-10-10 16:19:00.465 [main] LoggerLoad - Enter password
+[INFO ] 2024-10-10 16:19:00.666 [main] LoggerLoad - Enter confirm password
+[INFO ] 2024-10-10 16:19:01.153 [main] LoggerLoad - Click Register Button
+[INFO ] 2024-10-10 16:19:01.325 [main] LoggerLoad - verify the error message
+[WARN ] 2024-10-10 16:19:01.400 [main] LoggerLoad - password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-10-10 16:19:01.440 [main] LoggerLoad - ------User is On Sign in page------
+[INFO ] 2024-10-10 16:19:01.567 [main] LoggerLoad - ----User Clicks on Register Link-----
+[INFO ] 2024-10-10 16:19:01.784 [main] LoggerLoad - ----User redirected to Page----Registration
+[INFO ] 2024-10-10 16:19:01.800 [main] LoggerLoad - ------User is On Sign in page------
+[INFO ] 2024-10-10 16:19:01.909 [main] LoggerLoad - User is Clicking login button with empty fields
+[INFO ] 2024-10-10 16:19:02.056 [main] LoggerLoad - ------User is On Sign in page------
+[INFO ] 2024-10-10 16:19:02.131 [main] LoggerLoad - --User Enters Only the User name--
+[INFO ] 2024-10-10 16:19:02.293 [main] LoggerLoad - ----User can seePlease fill out this field.-----
+[INFO ] 2024-10-10 16:19:02.318 [main] LoggerLoad - ------User is On Sign in page------
+[INFO ] 2024-10-10 16:19:02.409 [main] LoggerLoad - User Enters Only Password
+[INFO ] 2024-10-10 16:19:02.619 [main] LoggerLoad - User can seePlease fill out this field.
+[INFO ] 2024-10-10 16:19:02.636 [main] LoggerLoad - ------User is On Sign in page------
+[INFO ] 2024-10-10 16:19:03.069 [main] LoggerLoad - -----User Clicks on Login button-----
+[INFO ] 2024-10-10 16:19:03.530 [main] LoggerLoad - The actual Alert is:Invalid Username and Password
+[INFO ] 2024-10-10 16:19:03.563 [main] LoggerLoad - ------User is On Sign in page------
+[INFO ] 2024-10-10 16:19:03.731 [main] LoggerLoad - User Enter username as " kodetesters "and Password as " numpyninja24" 
+[INFO ] 2024-10-10 16:19:04.638 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:04.793 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:05.493 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:05.502 [main] LoggerLoad - Title of current page is NumpyNinja
+[INFO ] 2024-10-10 16:19:05.508 [main] LoggerLoad - User Clicks on get started link
+[INFO ] 2024-10-10 16:19:05.705 [main] LoggerLoad - User redirected toData Structures-IntroductionPage
+[INFO ] 2024-10-10 16:19:05.714 [main] LoggerLoad - Title of current page is : Data Structures-Introduction
+[INFO ] 2024-10-10 16:19:05.925 [main] LoggerLoad - User Clicks on Time complexity link
+[INFO ] 2024-10-10 16:19:05.926 [main] LoggerLoad - User redirected toTime ComplexityPage
+[INFO ] 2024-10-10 16:19:05.938 [main] LoggerLoad - Title of current page is : Time Complexity
+[INFO ] 2024-10-10 16:19:07.015 [main] LoggerLoad - User Clicks on try it Editor
+[INFO ] 2024-10-10 16:19:07.016 [main] LoggerLoad - User redirected toAssessmentPage
+[INFO ] 2024-10-10 16:19:07.022 [main] LoggerLoad - Title of current page is : Assessment
+[INFO ] 2024-10-10 16:19:08.351 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:19:08.971 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:09.012 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:09.368 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:10.277 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:10.288 [main] LoggerLoad - Title of current page is NumpyNinja
+[INFO ] 2024-10-10 16:19:10.292 [main] LoggerLoad - User Clicks on Array get started link
+[INFO ] 2024-10-10 16:19:10.512 [main] LoggerLoad - User is redirected to ArrayPage
+[INFO ] 2024-10-10 16:19:10.521 [main] LoggerLoad - Page title is Array
+[INFO ] 2024-10-10 16:19:10.551 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:10.684 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:11.519 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:11.741 [main] LoggerLoad - User is on the Array page after logged in
+[INFO ] 2024-10-10 16:19:11.774 [main] LoggerLoad - User clicks on Arrays in Python in Array Page
+[INFO ] 2024-10-10 16:19:14.695 [main] LoggerLoad - User is redirected to Arrays in PythonPage
+[INFO ] 2024-10-10 16:19:14.705 [main] LoggerLoad - Page title is Arrays in Python
+[INFO ] 2024-10-10 16:19:14.723 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:14.855 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:15.953 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:16.190 [main] LoggerLoad - User is on the Arrays in Python page after logged in
+[INFO ] 2024-10-10 16:19:16.191 [main] LoggerLoad - User clicks Try Here on Arrays in Python page
+[INFO ] 2024-10-10 16:19:16.542 [main] LoggerLoad - User clicks on Try Here Link
+[INFO ] 2024-10-10 16:19:16.543 [main] LoggerLoad - User is redirected to a page having Try Editor with a run button to test
+[INFO ] 2024-10-10 16:19:16.546 [main] LoggerLoad - Page Title is Assessment
+[INFO ] 2024-10-10 16:19:16.568 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:16.722 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:17.444 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:17.695 [main] LoggerLoad - User is on the Try Editor Page after logged in
+[INFO ] 2024-10-10 16:19:17.696 [main] LoggerLoad - User is on Try Editor page
+[INFO ] 2024-10-10 16:19:18.775 [main] LoggerLoad - Expected Result is hello
+[INFO ] 2024-10-10 16:19:18.777 [main] LoggerLoad - User enters PythonCode as " print("hello");
+[INFO ] 2024-10-10 16:19:20.904 [main] LoggerLoad - User clicks on Run Button
+[INFO ] 2024-10-10 16:19:20.998 [main] LoggerLoad - User gets the Result of entered Python Code
+[INFO ] 2024-10-10 16:19:21.071 [main] LoggerLoad - Displayed Result is hello
+[INFO ] 2024-10-10 16:19:21.102 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:21.368 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:22.186 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:22.821 [main] LoggerLoad - User is on the Try Editor Page after logged in
+[INFO ] 2024-10-10 16:19:22.822 [main] LoggerLoad - User is on Try Editor page
+[INFO ] 2024-10-10 16:19:22.876 [main] LoggerLoad - Expected Result is hello
+[INFO ] 2024-10-10 16:19:22.876 [main] LoggerLoad - User enters PythonCode as " hello
+[INFO ] 2024-10-10 16:19:23.942 [main] LoggerLoad - User clicks on Run Button
+[INFO ] 2024-10-10 16:19:23.993 [main] LoggerLoad - User gets the error message in an Alert
+[INFO ] 2024-10-10 16:19:24.014 [main] LoggerLoad - Displayed Error Message  is NameError: name 'hello' is not defined on line 1
+[INFO ] 2024-10-10 16:19:24.030 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:24.128 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:24.719 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:24.829 [main] LoggerLoad - User is on the Array page after logged in
+[INFO ] 2024-10-10 16:19:24.830 [main] LoggerLoad - User clicks Arrays Using List Link
+[INFO ] 2024-10-10 16:19:25.016 [main] LoggerLoad - User is redirected to Arrays Using ListPage
+[INFO ] 2024-10-10 16:19:25.034 [main] LoggerLoad - Page title is Arrays Using List
+[INFO ] 2024-10-10 16:19:25.044 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:25.149 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:25.756 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:25.851 [main] LoggerLoad - User is on the Arrays Using List after logged in
+[INFO ] 2024-10-10 16:19:25.852 [main] LoggerLoad - User clicks Try Here on Arrays Using List
+[INFO ] 2024-10-10 16:19:26.057 [main] LoggerLoad - User clicks on Try Here Link
+[INFO ] 2024-10-10 16:19:26.058 [main] LoggerLoad - User is redirected to a page having Try Editor with a run button to test
+[INFO ] 2024-10-10 16:19:26.066 [main] LoggerLoad - Page Title is Assessment
+[INFO ] 2024-10-10 16:19:26.080 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:26.184 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:26.775 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:26.906 [main] LoggerLoad - User is on the Try Editor Page after logged in
+[INFO ] 2024-10-10 16:19:26.907 [main] LoggerLoad - User is on Try Editor page
+[INFO ] 2024-10-10 16:19:27.971 [main] LoggerLoad - Expected Result is hello
+[INFO ] 2024-10-10 16:19:27.971 [main] LoggerLoad - User enters PythonCode as " print("hello");
+[INFO ] 2024-10-10 16:19:30.152 [main] LoggerLoad - User clicks on Run Button
+[INFO ] 2024-10-10 16:19:30.248 [main] LoggerLoad - User gets the Result of entered Python Code
+[INFO ] 2024-10-10 16:19:30.280 [main] LoggerLoad - Displayed Result is hello
+[INFO ] 2024-10-10 16:19:30.291 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:30.446 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:31.022 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:31.221 [main] LoggerLoad - User is on the Try Editor Page after logged in
+[INFO ] 2024-10-10 16:19:31.222 [main] LoggerLoad - User is on Try Editor page
+[INFO ] 2024-10-10 16:19:31.275 [main] LoggerLoad - Expected Result is hello
+[INFO ] 2024-10-10 16:19:31.275 [main] LoggerLoad - User enters PythonCode as " hello
+[INFO ] 2024-10-10 16:19:32.363 [main] LoggerLoad - User clicks on Run Button
+[INFO ] 2024-10-10 16:19:32.527 [main] LoggerLoad - User gets the error message in an Alert for Arrays Using List 
+[INFO ] 2024-10-10 16:19:32.543 [main] LoggerLoad - Displayed Error Message  is NameError: name 'hello' is not defined on line 1
+[INFO ] 2024-10-10 16:19:32.551 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:32.658 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:33.264 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:33.380 [main] LoggerLoad - User is on the Array page after logged in
+[INFO ] 2024-10-10 16:19:33.381 [main] LoggerLoad - User clicks on Basic Operations In List link
+[INFO ] 2024-10-10 16:19:33.560 [main] LoggerLoad - User is redirected to Basic Operations in ListsPage
+[INFO ] 2024-10-10 16:19:33.570 [main] LoggerLoad - Page title is Basic Operations in Lists
+[INFO ] 2024-10-10 16:19:33.581 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:33.669 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:34.304 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:34.440 [main] LoggerLoad - User is on the Try Editor Page after logged in
+[INFO ] 2024-10-10 16:19:34.442 [main] LoggerLoad - User is on Try Editor page
+[INFO ] 2024-10-10 16:19:35.503 [main] LoggerLoad - Expected Result is hello
+[INFO ] 2024-10-10 16:19:35.504 [main] LoggerLoad - User enters PythonCode as " print("hello");
+[INFO ] 2024-10-10 16:19:37.669 [main] LoggerLoad - User clicks on Run Button
+[INFO ] 2024-10-10 16:19:37.757 [main] LoggerLoad - User gets the Result of entered Python Code
+[INFO ] 2024-10-10 16:19:37.815 [main] LoggerLoad - Displayed Result is hello
+[INFO ] 2024-10-10 16:19:37.843 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:37.979 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:38.651 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:38.820 [main] LoggerLoad - User is on the Try Editor Page after logged in
+[INFO ] 2024-10-10 16:19:38.821 [main] LoggerLoad - User is on Try Editor page
+[INFO ] 2024-10-10 16:19:38.897 [main] LoggerLoad - Expected Result is hello
+[INFO ] 2024-10-10 16:19:38.897 [main] LoggerLoad - User enters PythonCode as " hello
+[INFO ] 2024-10-10 16:19:39.989 [main] LoggerLoad - User clicks on Run Button
+[INFO ] 2024-10-10 16:19:40.047 [main] LoggerLoad - User gets the error message in an Alert for Basic Operations in List 
+[INFO ] 2024-10-10 16:19:40.061 [main] LoggerLoad - Displayed Error Message  is NameError: name 'hello' is not defined on line 1
+[INFO ] 2024-10-10 16:19:40.086 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:40.190 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:40.800 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:40.944 [main] LoggerLoad - User is on the Array page after logged in
+[INFO ] 2024-10-10 16:19:40.947 [main] LoggerLoad - User clicks on Applications of Array Link
+[INFO ] 2024-10-10 16:19:41.122 [main] LoggerLoad - User is redirected to Applications of ArrayPage
+[INFO ] 2024-10-10 16:19:41.129 [main] LoggerLoad - Page title is Applications of Array
+[INFO ] 2024-10-10 16:19:41.153 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:41.255 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:41.874 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:42.020 [main] LoggerLoad - User is on the Try Editor Page after logged in
+[INFO ] 2024-10-10 16:19:42.021 [main] LoggerLoad - User is on Try Editor page
+[INFO ] 2024-10-10 16:19:43.092 [main] LoggerLoad - Expected Result is hello
+[INFO ] 2024-10-10 16:19:43.092 [main] LoggerLoad - User enters PythonCode as " print("hello");
+[INFO ] 2024-10-10 16:19:45.239 [main] LoggerLoad - User clicks on Run Button
+[INFO ] 2024-10-10 16:19:45.286 [main] LoggerLoad - User gets the Result of entered Python Code
+[INFO ] 2024-10-10 16:19:45.341 [main] LoggerLoad - Displayed Result is hello
+[INFO ] 2024-10-10 16:19:45.355 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:45.457 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:46.021 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:46.161 [main] LoggerLoad - User is on the Try Editor Page after logged in
+[INFO ] 2024-10-10 16:19:46.162 [main] LoggerLoad - User is on Try Editor page
+[INFO ] 2024-10-10 16:19:47.215 [main] LoggerLoad - Expected Result is hello
+[INFO ] 2024-10-10 16:19:47.215 [main] LoggerLoad - User enters PythonCode as " hello
+[INFO ] 2024-10-10 16:19:49.318 [main] LoggerLoad - User clicks on Run Button
+[INFO ] 2024-10-10 16:19:49.374 [main] LoggerLoad - User gets the error message in an Alert for Applications of Array 
+[INFO ] 2024-10-10 16:19:49.383 [main] LoggerLoad - Displayed Error Message  is NameError: name 'hello' is not defined on line 1
+[INFO ] 2024-10-10 16:19:49.398 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:50.924 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:51.481 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:51.582 [main] LoggerLoad - User is on the Arrays in Python page after logged in
+[INFO ] 2024-10-10 16:19:51.583 [main] LoggerLoad - User clicks on Practice Questions link
+[INFO ] 2024-10-10 16:19:51.731 [main] LoggerLoad - User is redirected to Practice QuestionsPage
+[INFO ] 2024-10-10 16:19:51.742 [main] LoggerLoad - Page title is Practice Questions
+[INFO ] 2024-10-10 16:19:51.758 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:51.867 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:52.468 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:52.562 [main] LoggerLoad - User is on the Practice page after logged in
+[INFO ] 2024-10-10 16:19:52.562 [main] LoggerLoad - User clicks on Search the Array Link
+[INFO ] 2024-10-10 16:19:52.809 [main] LoggerLoad - User is redirected to Questions page having a Try Editor with Run button and Submit buttons
+[INFO ] 2024-10-10 16:19:52.819 [main] LoggerLoad - Page Title is Assessment
+[INFO ] 2024-10-10 16:19:52.831 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:52.919 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:53.524 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:53.525 [main] LoggerLoad - User is  on Question  page of Search the arrayafter logged in 
+[INFO ] 2024-10-10 16:19:53.688 [main] LoggerLoad - User enters valid Python Code from Sheet Name  PythonCode
+[INFO ] 2024-10-10 16:19:53.689 [main] LoggerLoad - User enters valid Python Code from Row Number 2
+[INFO ] 2024-10-10 16:19:55.112 [main] LoggerLoad - Expected result from Excel sheetname PythonCode and 2 : Element Found
+[INFO ] 2024-10-10 16:19:56.115 [main] LoggerLoad - User clicks on Run Button
+[INFO ] 2024-10-10 16:19:56.187 [main] LoggerLoad - User gets the Result of entered Python Code
+[INFO ] 2024-10-10 16:19:56.221 [main] LoggerLoad - Displayed Result is Element Found
+[INFO ] 2024-10-10 16:19:56.238 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:56.346 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:56.884 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:56.886 [main] LoggerLoad - User is  on Question  page of Search the arrayafter logged in 
+[INFO ] 2024-10-10 16:19:57.011 [main] LoggerLoad - User enters valid Python Code from Sheet Name  PythonCode
+[INFO ] 2024-10-10 16:19:57.011 [main] LoggerLoad - User enters valid Python Code from Row Number 3
+[INFO ] 2024-10-10 16:19:58.423 [main] LoggerLoad - Expected result from Excel sheetname PythonCode and 3 : submission success
+[INFO ] 2024-10-10 16:19:58.424 [main] LoggerLoad - User clicks on Submit button
+[INFO ] 2024-10-10 16:19:58.520 [main] LoggerLoad - User gets Success submission message
+[INFO ] 2024-10-10 16:19:58.529 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:58.699 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:19:59.276 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:19:59.365 [main] LoggerLoad - User is on the Practice page after logged in
+[INFO ] 2024-10-10 16:19:59.366 [main] LoggerLoad - User clicks on Max Consecutive Ones link
+[INFO ] 2024-10-10 16:19:59.594 [main] LoggerLoad - User is redirected to Questions page having a Try Editor with Run button and Submit buttons
+[INFO ] 2024-10-10 16:19:59.612 [main] LoggerLoad - Page Title is Assessment
+[INFO ] 2024-10-10 16:19:59.623 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:19:59.713 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:00.340 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:00.341 [main] LoggerLoad - User is  on Question  page of Max Consecutive Onesafter logged in 
+[INFO ] 2024-10-10 16:20:00.479 [main] LoggerLoad - User enters valid Python Code from Sheet Name  PythonCode
+[INFO ] 2024-10-10 16:20:00.479 [main] LoggerLoad - User enters valid Python Code from Row Number 4
+[INFO ] 2024-10-10 16:20:02.631 [main] LoggerLoad - Expected result from Excel sheetname PythonCode and 4 : 2
+[INFO ] 2024-10-10 16:20:03.647 [main] LoggerLoad - User clicks on Run Button
+[INFO ] 2024-10-10 16:20:03.737 [main] LoggerLoad - User gets the Result of entered Python Code
+[INFO ] 2024-10-10 16:20:03.750 [main] LoggerLoad - Displayed Result is 2
+[INFO ] 2024-10-10 16:20:03.767 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:03.904 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:04.477 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:04.478 [main] LoggerLoad - User is  on Question  page of Max Consecutive Onesafter logged in 
+[INFO ] 2024-10-10 16:20:04.538 [main] LoggerLoad - User enters valid Python Code from Sheet Name  PythonCode
+[INFO ] 2024-10-10 16:20:04.538 [main] LoggerLoad - User enters valid Python Code from Row Number 5
+[INFO ] 2024-10-10 16:20:06.696 [main] LoggerLoad - Expected result from Excel sheetname PythonCode and 5 : submission success
+[INFO ] 2024-10-10 16:20:06.697 [main] LoggerLoad - User clicks on Submit button
+[INFO ] 2024-10-10 16:20:06.790 [main] LoggerLoad - User gets Success submission message
+[INFO ] 2024-10-10 16:20:06.808 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:06.914 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:07.495 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:07.573 [main] LoggerLoad - User is on the Practice page after logged in
+[INFO ] 2024-10-10 16:20:07.574 [main] LoggerLoad - User clicks on Find Numbers with Even Number of Digits link
+[INFO ] 2024-10-10 16:20:07.730 [main] LoggerLoad - User is redirected to Questions page having a Try Editor with Run button and Submit buttons
+[INFO ] 2024-10-10 16:20:07.737 [main] LoggerLoad - Page Title is Assessment
+[INFO ] 2024-10-10 16:20:07.746 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:07.837 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:08.492 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:08.493 [main] LoggerLoad - User is  on Question  page of FindNumberswithEvenNumberofDigitsafter logged in 
+[INFO ] 2024-10-10 16:20:08.656 [main] LoggerLoad - User enters valid Python Code from Sheet Name  PythonCode
+[INFO ] 2024-10-10 16:20:08.656 [main] LoggerLoad - User enters valid Python Code from Row Number 6
+[INFO ] 2024-10-10 16:20:10.348 [main] LoggerLoad - Expected result from Excel sheetname PythonCode and 6 : 2
+[INFO ] 2024-10-10 16:20:11.351 [main] LoggerLoad - User clicks on Run Button
+[INFO ] 2024-10-10 16:20:11.429 [main] LoggerLoad - User gets the Result of entered Python Code
+[INFO ] 2024-10-10 16:20:11.457 [main] LoggerLoad - Displayed Result is 2
+[INFO ] 2024-10-10 16:20:11.477 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:11.591 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:12.161 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:12.162 [main] LoggerLoad - User is  on Question  page of FindNumberswithEvenNumberofDigitsafter logged in 
+[INFO ] 2024-10-10 16:20:12.282 [main] LoggerLoad - User enters valid Python Code from Sheet Name  PythonCode
+[INFO ] 2024-10-10 16:20:12.282 [main] LoggerLoad - User enters valid Python Code from Row Number 7
+[INFO ] 2024-10-10 16:20:14.061 [main] LoggerLoad - Expected result from Excel sheetname PythonCode and 7 : submission success
+[INFO ] 2024-10-10 16:20:14.062 [main] LoggerLoad - User clicks on Submit button
+[INFO ] 2024-10-10 16:20:14.195 [main] LoggerLoad - User gets Success submission message
+[INFO ] 2024-10-10 16:20:14.208 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:14.526 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:15.206 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:15.298 [main] LoggerLoad - User is on the Practice page after logged in
+[INFO ] 2024-10-10 16:20:15.299 [main] LoggerLoad - User clicks on Squares of a Sorted Array link
+[INFO ] 2024-10-10 16:20:15.508 [main] LoggerLoad - User is redirected to Questions page having a Try Editor with Run button and Submit buttons
+[INFO ] 2024-10-10 16:20:15.514 [main] LoggerLoad - Page Title is Assessment
+[INFO ] 2024-10-10 16:20:15.539 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:15.634 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:16.360 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:16.360 [main] LoggerLoad - User is  on Question  page of Squares of a Sorted Arrayafter logged in 
+[INFO ] 2024-10-10 16:20:16.481 [main] LoggerLoad - User enters valid Python Code from Sheet Name  PythonCode
+[INFO ] 2024-10-10 16:20:16.481 [main] LoggerLoad - User enters valid Python Code from Row Number 8
+[INFO ] 2024-10-10 16:20:19.242 [main] LoggerLoad - Expected result from Excel sheetname PythonCode and 8 : [4, 9, 9, 49, 121]
+[INFO ] 2024-10-10 16:20:20.247 [main] LoggerLoad - User clicks on Run Button
+[INFO ] 2024-10-10 16:20:20.298 [main] LoggerLoad - User gets the Result of entered Python Code
+[INFO ] 2024-10-10 16:20:20.316 [main] LoggerLoad - Displayed Result is [4, 9, 9, 49, 121]
+[INFO ] 2024-10-10 16:20:20.327 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:20.465 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:21.073 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:21.074 [main] LoggerLoad - User is  on Question  page of Squares of a Sorted Arrayafter logged in 
+[INFO ] 2024-10-10 16:20:21.235 [main] LoggerLoad - User enters valid Python Code from Sheet Name  PythonCode
+[INFO ] 2024-10-10 16:20:21.235 [main] LoggerLoad - User enters valid Python Code from Row Number 9
+[INFO ] 2024-10-10 16:20:23.528 [main] LoggerLoad - Expected result from Excel sheetname PythonCode and 9 : submission success
+[INFO ] 2024-10-10 16:20:23.532 [main] LoggerLoad - User clicks on Submit button
+[INFO ] 2024-10-10 16:20:23.691 [main] LoggerLoad - User gets Success submission message
+[INFO ] 2024-10-10 16:20:23.743 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:23.885 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:24.542 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:24.548 [main] LoggerLoad - Title of current page is NumpyNinja
+[INFO ] 2024-10-10 16:20:24.552 [main] LoggerLoad - The User Select Linked List From drop down menu 
+[INFO ] 2024-10-10 16:20:24.573 [main] LoggerLoad - ClickData Structureson drop down
+[INFO ] 2024-10-10 16:20:24.650 [main] LoggerLoad - ClickLinked List From the drop down
+[INFO ] 2024-10-10 16:20:24.830 [main] LoggerLoad - The User redirected to Linked ListPage
+[INFO ] 2024-10-10 16:20:24.836 [main] LoggerLoad - Title of the Current Page is Linked List
+[INFO ] 2024-10-10 16:20:24.846 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:24.938 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:25.606 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:25.735 [main] LoggerLoad - The user is on the Linked List page after logged in
+[INFO ] 2024-10-10 16:20:25.764 [main] LoggerLoad - Click On IntroductionOn Linked List Page
+[INFO ] 2024-10-10 16:20:25.991 [main] LoggerLoad - Title of the PageIntroduction
+[INFO ] 2024-10-10 16:20:25.991 [main] LoggerLoad - User Clicks on Introduction link
+[INFO ] 2024-10-10 16:20:25.992 [main] LoggerLoad - The User redirected to IntroductionPage
+[INFO ] 2024-10-10 16:20:25.999 [main] LoggerLoad - Title of the Current Page is Introduction
+[INFO ] 2024-10-10 16:20:26.014 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:26.107 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:26.784 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:26.918 [main] LoggerLoad - The user is on the Introduction after logged in
+[INFO ] 2024-10-10 16:20:27.123 [main] LoggerLoad - User Clicked onTry Here Buttonintroduction
+[INFO ] 2024-10-10 16:20:27.123 [main] LoggerLoad - User Clicks on try it Editor
+[INFO ] 2024-10-10 16:20:27.123 [main] LoggerLoad - User redirected to a page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:27.136 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:27.162 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:27.265 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:27.927 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:27.928 [main] LoggerLoad - The User is in page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:28.058 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:20:28.068 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:29.380 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:20:29.425 [main] LoggerLoad - The output is:LinkedList Introduction
+[INFO ] 2024-10-10 16:20:29.439 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:29.522 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:30.101 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:30.101 [main] LoggerLoad - The User is in page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:30.230 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:20:30.235 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:31.428 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:20:31.430 [main] LoggerLoad - The Error Message is:SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:20:31.446 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:31.542 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:32.108 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:32.250 [main] LoggerLoad - The user is on the Linked List page after logged in
+[INFO ] 2024-10-10 16:20:32.280 [main] LoggerLoad - ClickCreating Linked LIstOn Linked List Page
+[INFO ] 2024-10-10 16:20:32.490 [main] LoggerLoad - Title of the PageCreating Linked LIst
+[INFO ] 2024-10-10 16:20:32.491 [main] LoggerLoad - The User redirected to Creating Linked LIstPage
+[INFO ] 2024-10-10 16:20:32.496 [main] LoggerLoad - Title of the Current Page is Creating Linked LIst
+[INFO ] 2024-10-10 16:20:32.508 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:32.593 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:33.168 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:33.297 [main] LoggerLoad - The user is on the Creating a Linked List after logged in
+[INFO ] 2024-10-10 16:20:33.481 [main] LoggerLoad - User Clicked onTry Here Buttoncreating linked list
+[INFO ] 2024-10-10 16:20:33.481 [main] LoggerLoad - User Clicks on try it Editor
+[INFO ] 2024-10-10 16:20:33.481 [main] LoggerLoad - User redirected to a page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:33.487 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:33.504 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:33.633 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:34.195 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:34.197 [main] LoggerLoad - The User is in page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:34.329 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:20:34.334 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:35.562 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:20:35.589 [main] LoggerLoad - The output is:Creating a Linked List
+[INFO ] 2024-10-10 16:20:35.596 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:35.693 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:36.283 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:36.284 [main] LoggerLoad - The User is in page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:36.412 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:20:36.418 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:37.622 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:20:37.623 [main] LoggerLoad - The Error Message is:SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:20:37.640 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:37.745 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:38.346 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:38.467 [main] LoggerLoad - The user is on the Linked List page after logged in
+[INFO ] 2024-10-10 16:20:38.502 [main] LoggerLoad - ClickTypes of Linked ListOn Linked List Page
+[INFO ] 2024-10-10 16:20:39.302 [main] LoggerLoad - Title of the PageTypes of Linked List
+[INFO ] 2024-10-10 16:20:39.305 [main] LoggerLoad - The User redirected to Types of Linked ListPage
+[INFO ] 2024-10-10 16:20:39.313 [main] LoggerLoad - Title of the Current Page is Types of Linked List
+[INFO ] 2024-10-10 16:20:39.320 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:39.419 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:39.996 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:40.134 [main] LoggerLoad - The user is on the Types of Linked list after logged in
+[INFO ] 2024-10-10 16:20:40.378 [main] LoggerLoad - User Clicked onTry Here Buttontypes of linked list
+[INFO ] 2024-10-10 16:20:40.378 [main] LoggerLoad - User Clicks on try it Editor
+[INFO ] 2024-10-10 16:20:40.379 [main] LoggerLoad - User redirected to a page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:40.384 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:40.398 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:40.494 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:41.076 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:41.077 [main] LoggerLoad - The User is in page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:41.211 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:20:41.218 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:42.473 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:20:42.498 [main] LoggerLoad - The output is:Types of Linked List
+[INFO ] 2024-10-10 16:20:42.519 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:42.605 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:43.161 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:43.162 [main] LoggerLoad - The User is in page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:43.303 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:20:43.309 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:44.540 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:20:44.544 [main] LoggerLoad - The Error Message is:SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:20:44.565 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:44.664 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:45.314 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:45.465 [main] LoggerLoad - The user is on the Linked List page after logged in
+[INFO ] 2024-10-10 16:20:45.495 [main] LoggerLoad - ClickImplement Linked List in PythonOn Linked List Page
+[INFO ] 2024-10-10 16:20:45.665 [main] LoggerLoad - Title of the PageImplement Linked List in Python
+[INFO ] 2024-10-10 16:20:45.666 [main] LoggerLoad - The User redirected to Implement Linked List in PythonPage
+[INFO ] 2024-10-10 16:20:45.668 [main] LoggerLoad - Title of the Current Page is Implement Linked List in Python
+[INFO ] 2024-10-10 16:20:45.682 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:45.789 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:46.376 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:46.493 [main] LoggerLoad - The user is on the Implement Linked List in Python after logged in
+[INFO ] 2024-10-10 16:20:46.659 [main] LoggerLoad - User Clicked onTry Here Buttonimplemented linked list in pythont
+[INFO ] 2024-10-10 16:20:46.660 [main] LoggerLoad - User Clicks on try it Editor
+[INFO ] 2024-10-10 16:20:46.660 [main] LoggerLoad - User redirected to a page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:46.665 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:46.682 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:46.784 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:47.314 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:47.315 [main] LoggerLoad - The User is in page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:47.463 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:20:47.467 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:48.776 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:20:48.805 [main] LoggerLoad - The output is:Implement Linked List in Python
+[INFO ] 2024-10-10 16:20:48.813 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:48.912 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:49.470 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:49.471 [main] LoggerLoad - The User is in page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:49.600 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:20:49.610 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:50.928 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:20:50.931 [main] LoggerLoad - The Error Message is:SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:20:50.950 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:51.057 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:51.629 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:51.756 [main] LoggerLoad - The user is on the Linked List page after logged in
+[INFO ] 2024-10-10 16:20:51.780 [main] LoggerLoad - ClickTraversalOn Linked List Page
+[INFO ] 2024-10-10 16:20:51.979 [main] LoggerLoad - Title of the PageTraversal
+[INFO ] 2024-10-10 16:20:51.981 [main] LoggerLoad - The User redirected to TraversalPage
+[INFO ] 2024-10-10 16:20:51.987 [main] LoggerLoad - Title of the Current Page is Traversal
+[INFO ] 2024-10-10 16:20:51.998 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:52.095 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:52.732 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:52.866 [main] LoggerLoad - The user is on the Traversal after logged in
+[INFO ] 2024-10-10 16:20:53.258 [main] LoggerLoad - User Clicked onTry Here Buttontraversal
+[INFO ] 2024-10-10 16:20:53.258 [main] LoggerLoad - User Clicks on try it Editor
+[INFO ] 2024-10-10 16:20:53.259 [main] LoggerLoad - User redirected to a page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:53.264 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:53.274 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:53.369 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:53.968 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:53.969 [main] LoggerLoad - The User is in page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:54.103 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:20:54.111 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:55.332 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:20:55.381 [main] LoggerLoad - The output is:Traversal
+[INFO ] 2024-10-10 16:20:55.392 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:55.502 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:56.043 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:56.043 [main] LoggerLoad - The User is in page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:56.177 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:20:56.182 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:57.340 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:20:57.345 [main] LoggerLoad - The Error Message is:NameError: name 'Traversal' is not defined on line 1
+[INFO ] 2024-10-10 16:20:57.366 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:57.464 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:58.112 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:58.282 [main] LoggerLoad - The user is on the Linked List page after logged in
+[INFO ] 2024-10-10 16:20:58.308 [main] LoggerLoad - ClickInsertionOn Linked List Page
+[INFO ] 2024-10-10 16:20:58.564 [main] LoggerLoad - Title of the PageInsertion
+[INFO ] 2024-10-10 16:20:58.565 [main] LoggerLoad - The User redirected to InsertionPage
+[INFO ] 2024-10-10 16:20:58.579 [main] LoggerLoad - Title of the Current Page is Insertion
+[INFO ] 2024-10-10 16:20:58.589 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:58.693 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:20:59.260 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:20:59.434 [main] LoggerLoad - The user is on the Insertion after logged in
+[INFO ] 2024-10-10 16:20:59.613 [main] LoggerLoad - User Clicked onTry Here ButtonInsertion
+[INFO ] 2024-10-10 16:20:59.613 [main] LoggerLoad - User Clicks on try it Editor
+[INFO ] 2024-10-10 16:20:59.614 [main] LoggerLoad - User redirected to a page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:20:59.618 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:20:59.628 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:20:59.739 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:00.314 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:00.315 [main] LoggerLoad - The User is in page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:21:00.453 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:21:00.461 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:21:01.617 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:21:01.641 [main] LoggerLoad - The output is:Insertion
+[INFO ] 2024-10-10 16:21:01.665 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:01.766 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:02.383 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:02.383 [main] LoggerLoad - The User is in page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:21:02.528 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:21:02.532 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:21:03.712 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:21:03.714 [main] LoggerLoad - The Error Message is:NameError: name 'Insertion' is not defined on line 1
+[INFO ] 2024-10-10 16:21:03.732 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:03.862 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:04.420 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:04.579 [main] LoggerLoad - The user is on the Linked List page after logged in
+[INFO ] 2024-10-10 16:21:04.609 [main] LoggerLoad - ClickDeletionOn Linked List Page
+[INFO ] 2024-10-10 16:21:04.831 [main] LoggerLoad - Title of the PageDeletion
+[INFO ] 2024-10-10 16:21:04.832 [main] LoggerLoad - The User redirected to DeletionPage
+[INFO ] 2024-10-10 16:21:04.837 [main] LoggerLoad - Title of the Current Page is Deletion
+[INFO ] 2024-10-10 16:21:04.845 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:04.948 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:05.544 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:05.686 [main] LoggerLoad - The user is on the Deletion after logged in
+[INFO ] 2024-10-10 16:21:05.880 [main] LoggerLoad - User Clicked onTry Here ButtonDeletion
+[INFO ] 2024-10-10 16:21:05.880 [main] LoggerLoad - User Clicks on try it Editor
+[INFO ] 2024-10-10 16:21:05.880 [main] LoggerLoad - User redirected to a page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:21:05.885 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:21:05.898 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:05.992 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:06.530 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:06.531 [main] LoggerLoad - The User is in page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:21:06.666 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:21:06.671 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:21:07.847 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:21:07.874 [main] LoggerLoad - The output is:Deletion
+[INFO ] 2024-10-10 16:21:07.884 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:07.980 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:08.617 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:08.618 [main] LoggerLoad - The User is in page having an tryEditor with a Run button to test
+[INFO ] 2024-10-10 16:21:08.776 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:21:08.780 [main] LoggerLoad - Title of current page is :Assessment
+[INFO ] 2024-10-10 16:21:09.924 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:21:09.928 [main] LoggerLoad - The Error Message is:NameError: name 'Deletion' is not defined on line 1
+[INFO ] 2024-10-10 16:21:09.970 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:10.078 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:10.712 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:10.837 [main] LoggerLoad - The user is on the Linked List page after logged in
+[INFO ] 2024-10-10 16:21:10.859 [main] LoggerLoad - Click On IntroductionOn Linked List Page
+[INFO ] 2024-10-10 16:21:11.016 [main] LoggerLoad - Title of the PageIntroduction
+[INFO ] 2024-10-10 16:21:11.016 [main] LoggerLoad - User Clicks on Introduction link
+[INFO ] 2024-10-10 16:21:11.042 [main] LoggerLoad - ClickPractice QuestionsOn Linked List Page
+[INFO ] 2024-10-10 16:21:11.183 [main] LoggerLoad - Title of the PagePractice Questions
+[INFO ] 2024-10-10 16:21:11.184 [main] LoggerLoad - The User redirected to Practice QuestionsPage
+[INFO ] 2024-10-10 16:21:11.189 [main] LoggerLoad - Title of the Current Page is Practice Questions
+[INFO ] 2024-10-10 16:21:11.213 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:11.308 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:11.860 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:11.863 [main] LoggerLoad - Title of current page is NumpyNinja
+[INFO ] 2024-10-10 16:21:12.007 [main] LoggerLoad - User clicks on Stack Get Started link
+[INFO ] 2024-10-10 16:21:12.008 [main] LoggerLoad - The User clicks on the Stack Get Started button
+[INFO ] 2024-10-10 16:21:12.014 [main] LoggerLoad - Title of current page is:Stack
+[INFO ] 2024-10-10 16:21:12.024 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:12.117 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:12.670 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:12.769 [main] LoggerLoad - Stackpage
+[INFO ] 2024-10-10 16:21:12.992 [main] LoggerLoad - User clicks on Operations in Stack link
+[INFO ] 2024-10-10 16:21:12.998 [main] LoggerLoad - Title of current page is:Operations in Stack
+[INFO ] 2024-10-10 16:21:13.014 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:13.102 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:13.678 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:13.760 [main] LoggerLoad - OperationsinStackpage
+[INFO ] 2024-10-10 16:21:14.394 [main] LoggerLoad - User clicks On Tryhere button in stack page
+[INFO ] 2024-10-10 16:21:14.559 [main] LoggerLoad - Title of current page is:
+[INFO ] 2024-10-10 16:21:14.571 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:14.690 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:15.304 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:15.446 [main] LoggerLoad - The User is in tryEditor page of Operations in Stack
+[INFO ] 2024-10-10 16:21:15.657 [main] LoggerLoad - The User clicks the Run button
+[INFO ] 2024-10-10 16:21:15.716 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:15.811 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:16.382 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:16.517 [main] LoggerLoad - The User is in tryEditor page of Operations in Stack
+[INFO ] 2024-10-10 16:21:16.781 [main] LoggerLoad - The User clicks the Run button
+[INFO ] 2024-10-10 16:21:16.786 [main] LoggerLoad - The Error Message is:NameError: name 'Operations' is not defined on line 1
+[INFO ] 2024-10-10 16:21:16.830 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:16.950 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:17.722 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:17.818 [main] LoggerLoad - Stackpage
+[INFO ] 2024-10-10 16:21:17.997 [main] LoggerLoad - User clicks on Implementation link on Stack page
+[INFO ] 2024-10-10 16:21:17.997 [main] LoggerLoad - The User clicks on the Implementation link
+[INFO ] 2024-10-10 16:21:18.140 [main] LoggerLoad - Title of current page is:
+[INFO ] 2024-10-10 16:21:18.161 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:18.323 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:19.000 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:19.120 [main] LoggerLoad - StackImplementationpage
+[INFO ] 2024-10-10 16:21:19.416 [main] LoggerLoad - User clicks On Tryhere button in stack page
+[INFO ] 2024-10-10 16:21:19.536 [main] LoggerLoad - Title of current page is:
+[INFO ] 2024-10-10 16:21:19.549 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:19.638 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:20.270 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:20.442 [main] LoggerLoad - The User is in tryEditor page of Stack Implementation
+[INFO ] 2024-10-10 16:21:20.695 [main] LoggerLoad - The User clicks the Run button
+[INFO ] 2024-10-10 16:21:20.815 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:20.935 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:21.630 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:21.757 [main] LoggerLoad - Stackpage
+[INFO ] 2024-10-10 16:21:21.975 [main] LoggerLoad - User clicks On Applications link in stack page
+[INFO ] 2024-10-10 16:21:21.975 [main] LoggerLoad - The User clicks on the Applications link
+[INFO ] 2024-10-10 16:21:22.111 [main] LoggerLoad - Title of current page is:
+[INFO ] 2024-10-10 16:21:22.123 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:22.213 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:22.867 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:22.926 [main] LoggerLoad - Applicationstackpage
+[INFO ] 2024-10-10 16:21:23.148 [main] LoggerLoad - User clicks On Tryhere button in stack page
+[INFO ] 2024-10-10 16:21:23.271 [main] LoggerLoad - Title of current page is:
+[INFO ] 2024-10-10 16:21:23.284 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:23.399 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:24.244 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:24.651 [main] LoggerLoad - The User clicks the Run button
+[INFO ] 2024-10-10 16:21:24.750 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:24.876 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:25.609 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:25.695 [main] LoggerLoad - Stackpage
+[INFO ] 2024-10-10 16:21:25.844 [main] LoggerLoad - User clicks On Applications link in stack page
+[INFO ] 2024-10-10 16:21:26.004 [main] LoggerLoad - User clicks On Practice Questions link in stack page
+[INFO ] 2024-10-10 16:21:26.004 [main] LoggerLoad - The User clicks on the Practice Questions link
+[INFO ] 2024-10-10 16:21:26.151 [main] LoggerLoad - Title of current page is:
+[INFO ] 2024-10-10 16:21:26.178 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:26.276 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:27.175 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:27.189 [main] LoggerLoad - Title of current page is NumpyNinja
+[INFO ] 2024-10-10 16:21:27.341 [main] LoggerLoad - User Clicked on Queue get started
+[INFO ] 2024-10-10 16:21:27.341 [main] LoggerLoad - The User redirected to QueuePage
+[INFO ] 2024-10-10 16:21:27.352 [main] LoggerLoad - Title of the Current Page is Queue
+[INFO ] 2024-10-10 16:21:27.369 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:27.459 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:28.088 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:28.191 [main] LoggerLoad - User is in queue page
+[INFO ] 2024-10-10 16:21:28.430 [main] LoggerLoad - User Clicked on the Implement of Queue in Python
+[INFO ] 2024-10-10 16:21:28.432 [main] LoggerLoad - The User redirected to Implementation of Queue in PythonPage
+[INFO ] 2024-10-10 16:21:28.444 [main] LoggerLoad - Title of the Current Page is Implementation of Queue in Python
+[INFO ] 2024-10-10 16:21:28.459 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:28.573 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:29.251 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:29.338 [main] LoggerLoad - User is in Implementation of Queue in Python Page 
+[INFO ] 2024-10-10 16:21:29.703 [main] LoggerLoad - User Clicked on Try here
+[INFO ] 2024-10-10 16:21:29.704 [main] LoggerLoad - The User redirected to AssessmentPage
+[INFO ] 2024-10-10 16:21:29.711 [main] LoggerLoad - Title of the Current Page is Assessment
+[INFO ] 2024-10-10 16:21:29.737 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:29.877 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:30.515 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:30.679 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:21:31.037 [main] LoggerLoad - User Clicked on Run button
+[INFO ] 2024-10-10 16:21:31.205 [main] LoggerLoad - The output is:Implementation of Queue in Python
+[INFO ] 2024-10-10 16:21:31.227 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:31.341 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:32.085 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:32.213 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:21:32.483 [main] LoggerLoad - User Clicked on Run button
+[INFO ] 2024-10-10 16:21:32.495 [main] LoggerLoad - The Error Message is:SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:21:32.515 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:32.633 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:33.399 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:33.494 [main] LoggerLoad - User is in queue page
+[INFO ] 2024-10-10 16:21:33.690 [main] LoggerLoad - User Clicked on Implement Collection.deque
+[INFO ] 2024-10-10 16:21:33.691 [main] LoggerLoad - The User redirected to Implementation using collections.dequePage
+[INFO ] 2024-10-10 16:21:33.701 [main] LoggerLoad - Title of the Current Page is Implementation using collections.deque
+[INFO ] 2024-10-10 16:21:33.711 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:33.849 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:34.627 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:34.719 [main] LoggerLoad - User is in Implementation using collections deque page
+[INFO ] 2024-10-10 16:21:34.921 [main] LoggerLoad - User Clicked on Try here
+[INFO ] 2024-10-10 16:21:34.924 [main] LoggerLoad - The User redirected to AssessmentPage
+[INFO ] 2024-10-10 16:21:34.930 [main] LoggerLoad - Title of the Current Page is Assessment
+[INFO ] 2024-10-10 16:21:34.944 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:35.053 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:35.780 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:35.911 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:21:36.350 [main] LoggerLoad - User Clicked on Run button
+[INFO ] 2024-10-10 16:21:36.407 [main] LoggerLoad - The output is:Implementation of collections.deque in Python
+[INFO ] 2024-10-10 16:21:36.423 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:36.563 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:37.480 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:37.585 [main] LoggerLoad - User is in queue page
+[INFO ] 2024-10-10 16:21:37.767 [main] LoggerLoad - User Clicked on Implementation using Array
+[INFO ] 2024-10-10 16:21:37.767 [main] LoggerLoad - The User redirected to Implementation using arrayPage
+[INFO ] 2024-10-10 16:21:37.776 [main] LoggerLoad - Title of the Current Page is Implementation using array
+[INFO ] 2024-10-10 16:21:37.785 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:37.898 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:38.586 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:38.882 [main] LoggerLoad - User Clicked on Try here
+[INFO ] 2024-10-10 16:21:38.883 [main] LoggerLoad - The User redirected to AssessmentPage
+[INFO ] 2024-10-10 16:21:38.897 [main] LoggerLoad - Title of the Current Page is Assessment
+[INFO ] 2024-10-10 16:21:38.946 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:39.044 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:39.779 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:39.920 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:21:40.172 [main] LoggerLoad - User Clicked on Run button
+[INFO ] 2024-10-10 16:21:40.211 [main] LoggerLoad - The output is:Implementation Using Array
+[INFO ] 2024-10-10 16:21:40.234 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:40.361 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:41.212 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:41.292 [main] LoggerLoad - User is in queue page
+[INFO ] 2024-10-10 16:21:41.472 [main] LoggerLoad - User Clicked on Queue Operations
+[INFO ] 2024-10-10 16:21:41.473 [main] LoggerLoad - The User redirected to Queue OperationsPage
+[INFO ] 2024-10-10 16:21:41.487 [main] LoggerLoad - Title of the Current Page is Queue Operations
+[INFO ] 2024-10-10 16:21:41.500 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:41.834 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:42.427 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:42.696 [main] LoggerLoad - User Clicked on Try here
+[INFO ] 2024-10-10 16:21:42.699 [main] LoggerLoad - The User redirected to AssessmentPage
+[INFO ] 2024-10-10 16:21:42.719 [main] LoggerLoad - Title of the Current Page is Assessment
+[INFO ] 2024-10-10 16:21:42.740 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:42.852 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:43.633 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:43.816 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:21:44.090 [main] LoggerLoad - User Clicked on Run button
+[INFO ] 2024-10-10 16:21:44.218 [main] LoggerLoad - The output is:Queue Operations
+[INFO ] 2024-10-10 16:21:44.227 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:44.343 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:45.234 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:45.530 [main] LoggerLoad - User Clicked on Practice Questions
+[INFO ] 2024-10-10 16:21:45.531 [main] LoggerLoad - The User redirected to Practice QuestionsPage
+[INFO ] 2024-10-10 16:21:45.538 [main] LoggerLoad - Title of the Current Page is Practice Questions
+[INFO ] 2024-10-10 16:21:45.611 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:45.721 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:46.349 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:46.352 [main] LoggerLoad - User Click the tree Get Started Button
+[INFO ] 2024-10-10 16:21:46.588 [main] LoggerLoad - Tittle of the Tree page:  Tree
+[INFO ] 2024-10-10 16:21:46.617 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:46.720 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:47.439 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:47.566 [main] LoggerLoad - User Clicks on Overview of Tree link
+[INFO ] 2024-10-10 16:21:47.793 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:47.887 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:48.645 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:48.761 [main] LoggerLoad - User Clicks on Try Here in a Tree page
+[INFO ] 2024-10-10 16:21:48.761 [main] LoggerLoad - User Clicks on Try Here button
+[INFO ] 2024-10-10 16:21:49.027 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:49.149 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:49.893 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:50.026 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:21:50.200 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:21:51.322 [main] LoggerLoad - Output after Run Statement:Hello Numpy Ninjas
+[INFO ] 2024-10-10 16:21:51.358 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:51.454 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:52.023 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:52.170 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:21:52.348 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:21:53.428 [main] LoggerLoad - Actual result  :SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:21:53.440 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:53.586 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:54.399 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:54.543 [main] LoggerLoad - User Clicks on Terminologies link
+[INFO ] 2024-10-10 16:21:54.781 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:54.919 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:55.640 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:55.770 [main] LoggerLoad - User Clicks on Try Here in a Terminologies page
+[INFO ] 2024-10-10 16:21:55.770 [main] LoggerLoad - User Clicks on Try Here button
+[INFO ] 2024-10-10 16:21:56.048 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:56.164 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:56.933 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:57.071 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:21:57.284 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:21:58.383 [main] LoggerLoad - Output after Run Statement:Hello Numpy Ninjas
+[INFO ] 2024-10-10 16:21:58.407 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:21:58.507 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:21:59.122 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:21:59.269 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:21:59.445 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:00.570 [main] LoggerLoad - Actual result  :SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:22:00.581 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:00.668 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:01.289 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:01.443 [main] LoggerLoad - User Clicks on Types of tree link
+[INFO ] 2024-10-10 16:22:01.671 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:01.784 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:02.473 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:02.586 [main] LoggerLoad - User Clicks on Try Here in a types of tree page
+[INFO ] 2024-10-10 16:22:02.586 [main] LoggerLoad - User Clicks on Try Here button
+[INFO ] 2024-10-10 16:22:02.793 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:02.888 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:03.714 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:03.925 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:04.096 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:05.145 [main] LoggerLoad - Output after Run Statement:Hello Numpy Ninjas
+[INFO ] 2024-10-10 16:22:05.170 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:05.279 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:05.871 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:06.011 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:06.149 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:07.241 [main] LoggerLoad - Actual result  :SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:22:07.254 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:07.367 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:07.904 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:08.047 [main] LoggerLoad - User Clicks on  tree traversal link
+[INFO ] 2024-10-10 16:22:08.749 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:08.830 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:09.450 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:09.619 [main] LoggerLoad - User Clicks on Try Here in a tree traversals page
+[INFO ] 2024-10-10 16:22:09.619 [main] LoggerLoad - User Clicks on Try Here button
+[INFO ] 2024-10-10 16:22:09.844 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:10.202 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:10.929 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:11.079 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:11.275 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:12.436 [main] LoggerLoad - Output after Run Statement:Hello Numpy Ninjas
+[INFO ] 2024-10-10 16:22:12.465 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:12.567 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:13.181 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:13.364 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:13.684 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:14.804 [main] LoggerLoad - Actual result  :SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:22:14.821 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:15.059 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:16.139 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:16.619 [main] LoggerLoad - User Clicks on  traversal Illustration  link
+[INFO ] 2024-10-10 16:22:16.995 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:17.152 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:17.851 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:17.960 [main] LoggerLoad - User Clicks on Try Here in a traversal illustration page
+[INFO ] 2024-10-10 16:22:17.960 [main] LoggerLoad - User Clicks on Try Here button
+[INFO ] 2024-10-10 16:22:18.220 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:18.359 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:19.163 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:19.211 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:19.531 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:20.660 [main] LoggerLoad - Output after Run Statement:Hello Numpy Ninjas
+[INFO ] 2024-10-10 16:22:20.675 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:20.769 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:21.346 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:21.476 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:21.623 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:22.728 [main] LoggerLoad - Actual result  :SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:22:22.737 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:22.843 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:23.440 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:23.571 [main] LoggerLoad - User Clicks on  Binary Tree link
+[INFO ] 2024-10-10 16:22:23.923 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:24.029 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:24.688 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:24.805 [main] LoggerLoad - User Clicks on Try Here in a binary tree page
+[INFO ] 2024-10-10 16:22:24.805 [main] LoggerLoad - User Clicks on Try Here button
+[INFO ] 2024-10-10 16:22:25.042 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:25.157 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:25.985 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:26.133 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:26.326 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:27.430 [main] LoggerLoad - Output after Run Statement:Hello Numpy Ninjas
+[INFO ] 2024-10-10 16:22:27.464 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:27.559 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:28.113 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:28.256 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:28.427 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:29.500 [main] LoggerLoad - Actual result  :SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:22:29.509 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:29.604 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:30.216 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:30.328 [main] LoggerLoad - User Clicks on types of Binary tree link
+[INFO ] 2024-10-10 16:22:30.645 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:30.761 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:31.436 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:31.569 [main] LoggerLoad - User Clicks on Try Here in a types of binary trees page
+[INFO ] 2024-10-10 16:22:31.569 [main] LoggerLoad - User Clicks on Try Here button
+[INFO ] 2024-10-10 16:22:31.795 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:31.917 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:32.674 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:32.816 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:33.019 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:34.116 [main] LoggerLoad - Output after Run Statement:Hello Numpy Ninjas
+[INFO ] 2024-10-10 16:22:34.150 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:34.283 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:34.860 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:35.026 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:35.183 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:36.266 [main] LoggerLoad - Actual result  :SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:22:36.277 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:36.393 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:36.974 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:37.137 [main] LoggerLoad - User Clicks on Implementation of Python link
+[INFO ] 2024-10-10 16:22:37.615 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:37.727 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:38.433 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:38.580 [main] LoggerLoad - User Clicks on Try Here in a implementation in python page
+[INFO ] 2024-10-10 16:22:38.580 [main] LoggerLoad - User Clicks on Try Here button
+[INFO ] 2024-10-10 16:22:38.845 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:38.971 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:39.758 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:39.894 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:40.084 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:41.164 [main] LoggerLoad - Output after Run Statement:Hello Numpy Ninjas
+[INFO ] 2024-10-10 16:22:41.180 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:41.273 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:41.959 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:42.268 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:42.638 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:43.724 [main] LoggerLoad - Actual result  :SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:22:43.737 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:43.901 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:44.604 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:44.747 [main] LoggerLoad - User Clicks on Binary tree traversal link
+[INFO ] 2024-10-10 16:22:45.089 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:45.230 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:46.065 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:46.182 [main] LoggerLoad - User Clicks on Try Here in a binary tree traversals page
+[INFO ] 2024-10-10 16:22:46.182 [main] LoggerLoad - User Clicks on Try Here button
+[INFO ] 2024-10-10 16:22:46.480 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:46.601 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:47.403 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:47.551 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:47.736 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:48.799 [main] LoggerLoad - Output after Run Statement:Hello Numpy Ninjas
+[INFO ] 2024-10-10 16:22:48.846 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:48.953 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:49.725 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:49.871 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:50.030 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:51.138 [main] LoggerLoad - Actual result  :SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:22:51.147 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:51.242 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:51.800 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:51.926 [main] LoggerLoad - User Clicks on Implementation of Binary Trees link
+[INFO ] 2024-10-10 16:22:52.130 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:52.236 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:52.908 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:53.024 [main] LoggerLoad - User Clicks on Try Here in a Implementation of binary trees page
+[INFO ] 2024-10-10 16:22:53.024 [main] LoggerLoad - User Clicks on Try Here button
+[INFO ] 2024-10-10 16:22:53.248 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:53.422 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:54.108 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:54.271 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:54.449 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:55.572 [main] LoggerLoad - Output after Run Statement:Hello Numpy Ninjas
+[INFO ] 2024-10-10 16:22:55.601 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:55.696 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:56.299 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:56.437 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:22:56.636 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:22:57.759 [main] LoggerLoad - Actual result  :SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:22:57.770 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:57.870 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:58.490 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:58.610 [main] LoggerLoad - User Clicks on Applications of Binary Trees link
+[INFO ] 2024-10-10 16:22:58.802 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:22:58.917 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:22:59.678 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:22:59.806 [main] LoggerLoad - User Clicks on Try Here in a Applications of binary trees page
+[INFO ] 2024-10-10 16:22:59.806 [main] LoggerLoad - User Clicks on Try Here button
+[INFO ] 2024-10-10 16:23:00.073 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:00.209 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:00.950 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:01.095 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:23:01.282 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:23:02.394 [main] LoggerLoad - Output after Run Statement:Hello Numpy Ninjas
+[INFO ] 2024-10-10 16:23:02.415 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:02.610 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:03.187 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:03.323 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:23:03.479 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:23:04.580 [main] LoggerLoad - Actual result  :SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:23:04.594 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:04.694 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:05.257 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:05.380 [main] LoggerLoad - User Clicks on  Binary Search Trees link
+[INFO ] 2024-10-10 16:23:06.059 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:06.160 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:06.730 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:06.846 [main] LoggerLoad - User Clicks on Try Here in a Binary Search Trees page
+[INFO ] 2024-10-10 16:23:06.846 [main] LoggerLoad - User Clicks on Try Here button
+[INFO ] 2024-10-10 16:23:07.128 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:07.248 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:07.925 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:08.069 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:23:08.250 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:23:09.361 [main] LoggerLoad - Output after Run Statement:Hello Numpy Ninjas
+[INFO ] 2024-10-10 16:23:09.384 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:09.486 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:10.065 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:10.199 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:23:10.367 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:23:11.468 [main] LoggerLoad - Actual result  :SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:23:11.478 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:11.572 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:12.158 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:12.289 [main] LoggerLoad - User Clicks on Implementation of Binary Search Trees link
+[INFO ] 2024-10-10 16:23:12.481 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:12.588 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:13.328 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:13.460 [main] LoggerLoad - User Clicks on Try Here in a Implementation of BST page
+[INFO ] 2024-10-10 16:23:13.460 [main] LoggerLoad - User Clicks on Try Here button
+[INFO ] 2024-10-10 16:23:13.767 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:13.903 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:14.604 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:14.998 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:23:15.157 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:23:16.216 [main] LoggerLoad - Output after Run Statement:Hello Numpy Ninjas
+[INFO ] 2024-10-10 16:23:16.240 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:16.336 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:16.905 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:17.037 [main] LoggerLoad - User enter the valid print statement
+[INFO ] 2024-10-10 16:23:17.189 [main] LoggerLoad - User Clicked Run button
+[INFO ] 2024-10-10 16:23:18.282 [main] LoggerLoad - Actual result  :SyntaxError: bad input on line 1
+[INFO ] 2024-10-10 16:23:18.293 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:18.397 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:19.002 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:19.217 [main] LoggerLoad - User Clicks on Overview of Tree link
+[INFO ] 2024-10-10 16:23:19.378 [main] LoggerLoad - User Clicks the Practice Questions link
+[INFO ] 2024-10-10 16:23:19.563 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:19.695 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:20.427 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:20.441 [main] LoggerLoad - Title of current page is NumpyNinja
+[INFO ] 2024-10-10 16:23:20.619 [main] LoggerLoad - User Clicked on Queue get started
+[INFO ] 2024-10-10 16:23:20.619 [main] LoggerLoad - User Clicked on Graph Get Started link
+[INFO ] 2024-10-10 16:23:20.620 [main] LoggerLoad - The User redirected to GraphPage
+[INFO ] 2024-10-10 16:23:20.633 [main] LoggerLoad - Title of the Current Page is Graph
+[INFO ] 2024-10-10 16:23:20.658 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:20.799 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:21.599 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:21.696 [main] LoggerLoad - user is in graph page
+[INFO ] 2024-10-10 16:23:21.696 [main] LoggerLoad - User is on the Graph Page
+[INFO ] 2024-10-10 16:23:22.055 [main] LoggerLoad - User clicked on Graph link
+[INFO ] 2024-10-10 16:23:22.056 [main] LoggerLoad - The User redirected to GraphPage
+[INFO ] 2024-10-10 16:23:22.064 [main] LoggerLoad - Title of the Current Page is Graph
+[INFO ] 2024-10-10 16:23:22.086 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:22.197 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:22.869 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:23.197 [main] LoggerLoad - user is in graphgraphpage
+[INFO ] 2024-10-10 16:23:23.430 [main] LoggerLoad - User Clicked on Try here
+[INFO ] 2024-10-10 16:23:23.432 [main] LoggerLoad - The User redirected to AssessmentPage
+[INFO ] 2024-10-10 16:23:23.440 [main] LoggerLoad - Title of the Current Page is Assessment
+[INFO ] 2024-10-10 16:23:23.456 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:23.574 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:24.403 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:24.543 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:23:24.875 [main] LoggerLoad - User Clicked on Run button
+[INFO ] 2024-10-10 16:23:24.919 [main] LoggerLoad - The output is:Implementation of Graph
+[INFO ] 2024-10-10 16:23:24.944 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:25.074 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:25.789 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:25.906 [main] LoggerLoad - user is in graph page
+[INFO ] 2024-10-10 16:23:25.906 [main] LoggerLoad - User is on the Graph Page
+[INFO ] 2024-10-10 16:23:26.580 [main] LoggerLoad - User clicked on Graph Representations link
+[INFO ] 2024-10-10 16:23:26.583 [main] LoggerLoad - The User redirected to Graph RepresentationsPage
+[INFO ] 2024-10-10 16:23:26.592 [main] LoggerLoad - Title of the Current Page is Graph Representations
+[INFO ] 2024-10-10 16:23:26.607 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:26.712 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:27.349 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:27.478 [main] LoggerLoad - user is in graph representations page
+[INFO ] 2024-10-10 16:23:27.706 [main] LoggerLoad - User Clicked on Try here
+[INFO ] 2024-10-10 16:23:27.707 [main] LoggerLoad - The User redirected to AssessmentPage
+[INFO ] 2024-10-10 16:23:27.721 [main] LoggerLoad - Title of the Current Page is Assessment
+[INFO ] 2024-10-10 16:23:27.733 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:27.856 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:28.761 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:28.905 [main] LoggerLoad - User is in editor page
+[INFO ] 2024-10-10 16:23:29.255 [main] LoggerLoad - User Clicked on Run button
+[INFO ] 2024-10-10 16:23:29.343 [main] LoggerLoad - The output is:Implementation of Graph
+[INFO ] 2024-10-10 16:23:29.358 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:29.490 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:30.240 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:30.337 [main] LoggerLoad - user is in graph representations page
+[INFO ] 2024-10-10 16:23:30.507 [main] LoggerLoad - User clicked on Graph Practice Questions link
+[INFO ] 2024-10-10 16:23:30.509 [main] LoggerLoad - The User redirected to Practice QuestionsPage
+[INFO ] 2024-10-10 16:23:30.515 [main] LoggerLoad - Title of the Current Page is Practice Questions
+[INFO ] 2024-10-10 16:23:30.531 [main] LoggerLoad - User Is on Login Page
+[INFO ] 2024-10-10 16:23:30.639 [main] LoggerLoad - User Enters username and password
+[INFO ] 2024-10-10 16:23:31.358 [main] LoggerLoad - User redirected to HomePage
+[INFO ] 2024-10-10 16:23:31.621 [main] LoggerLoad - Closing Driver

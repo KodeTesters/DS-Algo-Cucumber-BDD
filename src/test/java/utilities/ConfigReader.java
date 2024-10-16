@@ -1,34 +1,41 @@
 package utilities;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-//import java.io.IOException;
 import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
     private static Properties properties;
+    private static String browserType = null; // Allows dynamic setting of browser type
     private final static String propertyFilePath = ".\\src\\test\\resources\\config\\config.properties";
 
+    // Load the properties file
     public static void readConfig() throws Throwable {
-        try {
-            FileInputStream fis;
-            fis = new FileInputStream(propertyFilePath);
+        try (FileInputStream fis = new FileInputStream(propertyFilePath)) {
             properties = new Properties();
-
-            try {
-                properties.load(fis);
-                fis.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            properties.load(fis);
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
-            throw new RuntimeException("Config.properties not found at" + propertyFilePath);
+            throw new RuntimeException("Config.properties not found at " + propertyFilePath, e);
+        } catch (IOException e) {
+            throw new RuntimeException("Error loading Config.properties file at " + propertyFilePath, e);
         }
-
     }
 
-    // Browser Type
+    // Method to dynamically set the browser type at runtime
+    public static void setBrowserType(String browser) {
+        browserType = browser;
+    }
+
+    // Get browser type, first checking the dynamic setting, then falling back to config file
+    public static String getBrowserType() {
+        if (browserType != null) {
+            return browserType;  // Return the dynamically set browser type
+        }
+        return browserType(); // Fallback to value in config file if not set dynamically
+    }
+
+    // Fetch browser type from config.properties
     public static String browserType() {
         String browser = properties.getProperty("browser");
         LoggerLoad.info("Get Browser Type from Properties");
@@ -74,6 +81,7 @@ public class ConfigReader {
             throw new RuntimeException("registerpageurl not specified in the Config.properties file");
     }
 
+    // Excel file path
     public static String getexcelfilepath() {
         String excelfilelpath = properties.getProperty("excelFilePath");
         if (excelfilelpath != null)
@@ -91,7 +99,7 @@ public class ConfigReader {
             throw new RuntimeException("Array Page url not specified in the Configuration.properties file.");
     }
 
-    // Array - Tryeditor
+    // Try Editor URL
     public static String tryEditorURL() {
         String tryeditorurl = properties.getProperty("tryeditorurl");
         if (tryeditorurl != null)
@@ -100,6 +108,7 @@ public class ConfigReader {
             throw new RuntimeException("tryeditorurl not specified in the Configuration.properties file.");
     }
 
+    // Generic method to retrieve URLs
     public static String geturl(String pagename) {
         String url = properties.getProperty(pagename);
         if (url != null)
@@ -126,14 +135,6 @@ public class ConfigReader {
             throw new RuntimeException("stack url not specified in the Configuration.properties file.");
     }
 
-    public static String tryURL(String pagename) {
-        String url = properties.getProperty(pagename);
-        if (url != null)
-            return url;
-        else
-            throw new RuntimeException(pagename + "url not specified in the Configuration.properties file.");
-    }
-
     // Queue
     public static String getQueueUrl() {
         String queueurl = properties.getProperty("queueurl");
@@ -143,13 +144,13 @@ public class ConfigReader {
             throw new RuntimeException("queue url is not specified in the Configuration.properties file.");
     }
 
+    // Other URL getters for various pages (QPractice, Graph, Tree, etc.)
     public static String getQPracQuesUrl() {
         String qpracquesurl = properties.getProperty("qpracquesurl");
         if (qpracquesurl != null)
             return qpracquesurl;
         else
-            throw new RuntimeException(
-                    "Queue Practice Questions url is not specified in the Configuration.properties file.");
+            throw new RuntimeException("Queue Practice Questions url is not specified in the Configuration.properties file.");
     }
 
     public static String getImpOfQPythonUrl() {
@@ -157,8 +158,7 @@ public class ConfigReader {
         if (impofqpythonurl != null)
             return impofqpythonurl;
         else
-            throw new RuntimeException(
-                    "Implementation of Queue in Python url is not specified in the Configuration.properties file.");
+            throw new RuntimeException("Implementation of Queue in Python url is not specified in the Configuration.properties file.");
     }
 
     public static String getEditorUrl() {
@@ -174,8 +174,7 @@ public class ConfigReader {
         if (impcolldqurl != null)
             return impcolldqurl;
         else
-            throw new RuntimeException(
-                    "Implementation using collections deque url is not specified in the Configuration.properties file.");
+            throw new RuntimeException("Implementation using collections deque url is not specified in the Configuration.properties file.");
     }
 
     public static String getImpUsingArrayUrl() {
@@ -183,8 +182,7 @@ public class ConfigReader {
         if (impusingarray != null)
             return impusingarray;
         else
-            throw new RuntimeException(
-                    "Implementation using array url is not specified in the Configuration.properties file.");
+            throw new RuntimeException("Implementation using array url is not specified in the Configuration.properties file.");
     }
 
     // Graph
@@ -209,8 +207,7 @@ public class ConfigReader {
         if (graphrepresentationsurl != null)
             return graphrepresentationsurl;
         else
-            throw new RuntimeException(
-                    "graphrepresentations url is not specified in the Configuration.properties file.");
+            throw new RuntimeException("graphrepresentations url is not specified in the Configuration.properties file.");
     }
 
     // Tree

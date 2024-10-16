@@ -1,54 +1,47 @@
 package hooks;
+
 import java.io.ByteArrayInputStream;
 
+import io.cucumber.java.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-
 import Drivers.DriverFactory;
-import io.cucumber.java.AfterAll;
-import io.cucumber.java.AfterStep;
-import io.cucumber.java.BeforeAll;
-import io.cucumber.java.Scenario;
 import io.qameta.allure.Allure;
 import utilities.ConfigReader;
 import utilities.LoggerLoad;
 
 public class Hooks {
-    public static WebDriver driver;
-    private static DriverFactory baseclass;
 
-    @BeforeAll
-    public static void launchbrowser()  throws Throwable {
-        //Get Browser Type
-        LoggerLoad.info("Loading Config file");
-        ConfigReader.readConfig();
-        String browser = ConfigReader.browserType();
+    @Before
+    public void launchBrowser() throws Throwable {
+        // Get the instance of ConfigReader and retrieve the browser type
+        LoggerLoad.info("Loading config file");
+        String browser = ConfigReader.getBrowserType();  // This ensures the config is loaded
 
-        //Initialize driver from DriverFactory
-        baseclass = new DriverFactory();
-        driver =baseclass.initializeWebdriver(browser);
-        LoggerLoad.info("Intializing" + browser +"driver");
-
+        // Initialize WebDriver from DriverFactory
+        LoggerLoad.info("Initializing " + browser + " driver");
+        DriverFactory.initializeWebDriver(browser);  // Ensure thread-safe WebDriver creation
     }
 
     @AfterStep
-    public void afterstep(Scenario scenario) {
-        if (scenario.isFailed()) {
-            LoggerLoad.error("Steps Failed , Taking Screenshot");
-            final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-            scenario.attach(screenshot, "image/png", "My screenshot");
-            Allure.attachment("Myscreenshot",new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-
+    public void afterStep(Scenario scenario) {
+        // Take a screenshot if the scenario fails
+        if (scenario.isFailed() && DriverFactory.getDriver() != null) {
+            try {
+                LoggerLoad.error("Step failed, taking screenshot");
+                final byte[] screenshot = ((TakesScreenshot) DriverFactory.getDriver()).getScreenshotAs(OutputType.BYTES);
+                scenario.attach(screenshot, "image/png", "Screenshot on failure");
+                Allure.attachment("Screenshot", new ByteArrayInputStream(screenshot));
+            } catch (Exception e) {
+                LoggerLoad.error("Failed to capture screenshot: " + e.getMessage());
+            }
         }
     }
 
-    @AfterAll
-    public static void after() throws InterruptedException {
-        LoggerLoad.info("Closing Driver");
-        //Thread.sleep(5000);
-        DriverFactory.closeallDriver();
+    @After
+    public void afterScenario() {
+        // Close WebDriver after the scenario finishes
+        LoggerLoad.info("Closing driver after scenario");
+        DriverFactory.closeDriver();  // Ensure thread-safe driver closure
     }
-
-
 }
