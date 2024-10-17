@@ -1,6 +1,6 @@
 package runner;
 
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 
@@ -30,7 +30,8 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 	}
 
 	@Override
-	@DataProvider(parallel = true)
+
+	@DataProvider()
 	public Object[][] scenarios() {
 		return super.scenarios();
 	}
@@ -38,6 +39,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 	 
 
 	@BeforeMethod
+	@BeforeClass
 	@Parameters({ "browser" }) 
 	public void defineBrowser(String browser) throws Throwable {
 		DriverFactory.initializeWebDriver(browser);
