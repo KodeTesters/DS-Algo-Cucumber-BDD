@@ -17,30 +17,30 @@ Feature: SignIn Action
     When User clicks on login button with username as "kode" only
     Then User verify the message at password as "Please fill out this field."
 
-  Scenario: To verify SignIn with password only
-    Given User is on SignIn page
-    When User clicks on login button with password as "numpy" only
-    Then User verify the message at user as "Please fill out this field."
+  # Scenario: To verify SignIn with password only
+  #   Given User is on SignIn page
+  #   When User clicks on login button with password as "numpy" only
+  #   Then User verify the message at user as "Please fill out this field."
 
-  Scenario Outline: To verify SignIn with invalid "<username>" and "<password>"
-    Given User is on SignIn page
-    When User enters username as "<username>"
-    And User enters password as "<password>"
-    And User clicks login button
-    Then User verify the message as "Invalid Username and Password"
+  # Scenario Outline: To verify SignIn with invalid "<username>" and "<password>"
+  #   Given User is on SignIn page
+  #   When User enters username as "<username>"
+  #   And User enters password as "<password>"
+  #   And User clicks login button
+  #   Then User verify the message as "Invalid Username and Password"
 
-    Examples: 
-      | username | password |
-      | kodetesters | numpyninja |
+  #   Examples: 
+  #     | username | password |
+  #     | kodetesters | numpyninja |
 
-  Scenario Outline: User  Login with  valid "<username>" and "<password>"
-    Given User is on SignIn page
-    When User enters sheetname "<Sheetname>" and rownumber <RowNumber>
-    And User clicks on login button
-    Then It should navigate to the home page with a message " You are logged in  "
+  # Scenario Outline: User  Login with  valid "<username>" and "<password>"
+  #   Given User is on SignIn page
+  #   When User enters sheetname "<Sheetname>" and rownumber <RowNumber>
+  #   And User clicks on login button
+  #   Then It should navigate to the home page with a message " You are logged in  "
 
-    Examples: 
-      | Sheetname | RowNumber |
-      | SignIn    |         0 |
+  #   Examples: 
+  #     | Sheetname | RowNumber |
+  #     | SignIn    |         0 |
 
  

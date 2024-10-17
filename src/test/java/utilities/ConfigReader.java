@@ -1,29 +1,27 @@
 package utilities;
-import java.io.FileInputStream;
+
 import java.io.FileNotFoundException;
-//import java.io.IOException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 
 public class ConfigReader {
     private static Properties properties;
-    private final static String propertyFilePath = ".\\src\\test\\resources\\config\\config.properties";
+    private final static String propertyFilePath = ".\\config\\config.properties";
 
     public static void readConfig() throws Throwable {
-        try {
-            FileInputStream fis;
-            fis = new FileInputStream(propertyFilePath);
-            properties = new Properties();
 
-            try {
-                properties.load(fis);
-                fis.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        } catch (FileNotFoundException e) {
+        InputStream fis;
+        fis = ConfigReader.class.getClassLoader().getResourceAsStream(propertyFilePath);
+        properties = new Properties();
+        if (fis == null) {
+            throw new FileNotFoundException("Property file '" + propertyFilePath + "' not found in the classpath");
+        }
+        try {
+            properties.load(fis);
+            fis.close();
+        } catch (IOException e) {
             e.printStackTrace();
-            throw new RuntimeException("Config.properties not found at" + propertyFilePath);
         }
 
     }
@@ -220,5 +218,10 @@ public class ConfigReader {
             return treeurl;
         else
             throw new RuntimeException("tree url not specified in the Configuration.properties file.");
+    }
+
+    public static void setBrowserType(String browser) {
+        System.out.println("----------------------------Setting browser type to: " + browser);
+        properties.setProperty("browser", browser);
     }
 }
