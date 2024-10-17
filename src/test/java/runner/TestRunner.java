@@ -40,8 +40,6 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 	@BeforeMethod
 	@Parameters({ "browser" }) 
 	public void defineBrowser(String browser) throws Throwable {
-		System.out.println("-------------------------------" + browser);
-		// ConfigReader.setBrowserType(browser);
 		DriverFactory.initializeWebDriver(browser);
 	}
 
