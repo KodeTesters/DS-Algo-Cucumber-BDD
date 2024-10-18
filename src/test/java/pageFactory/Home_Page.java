@@ -11,7 +11,7 @@ import utilities.LoggerLoad;
 
 public class Home_Page {
 
-    public static WebDriver driver =DriverFactory.getDriver();
+    public  WebDriver driver =DriverFactory.getDriver();
     String url ="https://dsportalapp.herokuapp.com";
     String homePageurl="https://dsportalapp.herokuapp.com/home";
     //String url=ConfigReader.applicationUrl();

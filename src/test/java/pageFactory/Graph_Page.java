@@ -12,7 +12,7 @@ import utilities.Utility_Methods;
 
 public class Graph_Page {
 
-    public static WebDriver driver = DriverFactory.getDriver();
+    public  WebDriver driver = DriverFactory.getDriver();
     Utility_Methods utils=new Utility_Methods();
 
     String homepage = ConfigReader.homePage();

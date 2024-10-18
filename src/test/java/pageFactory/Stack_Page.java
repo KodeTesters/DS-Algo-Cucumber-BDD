@@ -12,7 +12,7 @@ import utilities.Utility_Methods;
 
 public class Stack_Page {
 
-	 public static WebDriver driver = DriverFactory.getDriver();
+	 public  WebDriver driver = DriverFactory.getDriver();
 	  String tryEditorURL = ConfigReader.tryEditorURL();
 
 	  Utility_Methods util = new Utility_Methods(); // This is for webelement wait 

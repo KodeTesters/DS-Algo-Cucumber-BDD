@@ -10,7 +10,7 @@ import utilities.ConfigReader;
 import utilities.LoggerLoad;
 
 public class Tree_Page {
-    public static WebDriver driver =DriverFactory.getDriver();
+    public  WebDriver driver =DriverFactory.getDriver();
     ConfigReader cr = new ConfigReader();
 
 

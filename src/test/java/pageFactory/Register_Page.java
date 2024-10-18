@@ -13,7 +13,7 @@ import utilities.LoggerLoad;
 
 public class Register_Page {
 
-    public static WebDriver driver = DriverFactory.getDriver();
+    public  WebDriver driver = DriverFactory.getDriver();
 
     String RegisterURL = ConfigReader.registerPageURL();
 

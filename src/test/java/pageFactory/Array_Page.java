@@ -15,7 +15,7 @@ import utilities.Utility_Methods;
 
 public class Array_Page {
 
-    public static WebDriver driver =DriverFactory.getDriver();
+    public  WebDriver driver =DriverFactory.getDriver();
 
     Utility_Methods util=new Utility_Methods();
 
