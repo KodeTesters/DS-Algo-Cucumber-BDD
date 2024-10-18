@@ -12,7 +12,7 @@ import utilities.Utility_Methods;
 
 public class Queue_Page {
 
-    public static WebDriver driver =DriverFactory.getDriver();
+    public  WebDriver driver =DriverFactory.getDriver();
     Utility_Methods util =new Utility_Methods();
 
     String queueurl = ConfigReader.getQueueUrl();

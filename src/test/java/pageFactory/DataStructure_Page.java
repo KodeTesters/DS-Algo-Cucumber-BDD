@@ -14,7 +14,7 @@ import Drivers.DriverFactory;
 
 public class DataStructure_Page {
 
-	public static WebDriver driver = DriverFactory.getDriver();
+	public  WebDriver driver = DriverFactory.getDriver();
 
 	@FindBy(xpath = "//a[@href ='data-structures-introduction']")
 	WebElement getStartedDSintro_link;
