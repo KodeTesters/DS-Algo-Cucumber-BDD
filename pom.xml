@@ -156,10 +156,17 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M5</version>
           <configuration>
-            <suiteXmlFiles>
+            <properties>
+            <dataproviderthreadcount>3</dataproviderthreadcount>
+            <parallel>all</parallel>
+            <threadcount>3</threadcount>
+            </properties>
+              <suiteXmlFiles>
                 <suiteXmlFile>testng.xml</suiteXmlFile>
-            </suiteXmlFiles>
-        </configuration>
+              </suiteXmlFiles>
+            </configuration>
+      
+    
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
