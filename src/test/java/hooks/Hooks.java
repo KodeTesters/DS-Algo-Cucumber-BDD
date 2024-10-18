@@ -1,6 +1,7 @@
 package hooks;
 
 import java.io.ByteArrayInputStream;
+import java.sql.Driver;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -18,10 +19,13 @@ import utilities.LoggerLoad;
 
 public class Hooks {
     public WebDriver driver;
+    DriverFactory driverFactory = new DriverFactory();
  
     @Before
 	public void defineBrowser(Scenario scenario) throws Throwable {
-		DriverFactory.initializeWebDriver(ConfigReader.browserType());
+		driverFactory.initializeWebDriver(ConfigReader.browserType());
+        
+
 	 
 	}
 
@@ -37,23 +41,18 @@ public class Hooks {
     }
 
     @After
-    public void afterScenario(Scenario scenario) {
-        if (scenario.isFailed()) {
-            LoggerLoad.error("Scenario Failed , Taking Screenshot");
-            final byte[] screenshot = ((TakesScreenshot) DriverFactory.getDriver()).getScreenshotAs(OutputType.BYTES);
-            scenario.attach(screenshot, "image/png", "My screenshot");
-            Allure.attachment("Myscreenshot",
-                    new ByteArrayInputStream(((TakesScreenshot)  DriverFactory.getDriver()).getScreenshotAs(OutputType.BYTES)));
-        }
-      //  DriverFactory.closeDriver();
+    public void afterScenario(Scenario scenario) throws InterruptedException  {
+        Thread.sleep(6000);
+        driverFactory.closeDriver();  
+      
     }
 
     
 
-    @AfterAll 
-    public static void after() throws InterruptedException {
-        Thread.sleep(3000);
-        DriverFactory.closeDriver();
-    }
+    // @AfterAll 
+    // public static void after() throws InterruptedException {
+    //     Thread.sleep(6000);
+    //     driverFactory.closeDriver();
+    // }
 
 }

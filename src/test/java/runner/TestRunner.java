@@ -14,7 +14,7 @@ import utilities.LoggerLoad;
 		"pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, // reporting purpose
 		monochrome = true, // console output
-		tags = "@Signin", // tags from feature file
+		tags = " ", // tags from feature file
 		features = { "src/test/resources/features" }, // location of feature files
 		glue = { "stepDefinitions", "hooks" }) // location of step definition files
 
@@ -30,19 +30,22 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 	}
 
 	@Override
-
-	@DataProvider()
+	@DataProvider(parallel = true)
 	public Object[][] scenarios() {
 		return super.scenarios();
 	}
 
-	 
-
-	@BeforeMethod
-	@BeforeClass
-	@Parameters({ "browser" }) 
+	@BeforeTest
+	@Parameters({ "browser" })
 	public void defineBrowser(String browser) throws Throwable {
-		DriverFactory.initializeWebDriver(browser);
+		//DriverFactory.initializeWebDriver(browser);
+		ConfigReader.setBrowserType(browser);
 	}
+
+
+    // @AfterTest
+    // public void tearDown() {
+    //     DriverFactory.closeDriver();
+    // }
 
 }

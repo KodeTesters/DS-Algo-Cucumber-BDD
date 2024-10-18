@@ -13,7 +13,8 @@ public class SignIn_Page {
 
 	
 	
-	public static WebDriver driver = DriverFactory.getDriver();
+	//public static WebDriver driver = DriverFactory.getDriver();
+	public  WebDriver driver = DriverFactory.getDriver();
 	String loginurl = ConfigReader.loginPage();
 	String registerurl = ConfigReader.registerPageURL();
 

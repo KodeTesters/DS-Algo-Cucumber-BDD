@@ -15,21 +15,21 @@ public class DriverFactory {
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     // Initialize WebDriver
-    public static WebDriver initializeWebDriver(String browser) {
+   public  WebDriver initializeWebDriver(String browser) {
         if (driver.get() == null) { // Ensure WebDriver is only initialized once per thread
             if (browser.equalsIgnoreCase("chrome")) {
-                WebDriverManager.chromedriver().setup();
+               
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--start-maximized"); // Maximize Chrome window
                 driver.set(new ChromeDriver(options));
             } else if (browser.equalsIgnoreCase("firefox")) {
-                WebDriverManager.firefoxdriver().setup();
+               // WebDriverManager.firefoxdriver().setup();
                 FirefoxOptions options = new FirefoxOptions();
                 options.addArguments("--width=1920", "--height=1080"); // Maximize Firefox window
                 driver.set(new FirefoxDriver(options));
 
             } else if (browser.equalsIgnoreCase("edge")) {
-                WebDriverManager.edgedriver().setup();
+                //WebDriverManager.edgedriver().setup();
                 EdgeOptions options = new EdgeOptions();
                 options.addArguments("start-maximized"); // Maximize Edge window
                 driver.set(new EdgeDriver(options));
@@ -54,7 +54,7 @@ public class DriverFactory {
     }
 
     // Close the WebDriver
-    public static void closeDriver() {
+    public  void closeDriver() {
         if (driver.get() != null) {
             driver.get().quit();
             driver.remove(); // Removes driver from ThreadLocal to clean up resources
