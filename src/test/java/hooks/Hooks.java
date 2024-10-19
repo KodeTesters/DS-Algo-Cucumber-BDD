@@ -1,7 +1,6 @@
 package hooks;
 
 import java.io.ByteArrayInputStream;
-import java.sql.Driver;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -9,7 +8,6 @@ import org.openqa.selenium.WebDriver;
 
 import Drivers.DriverFactory;
 import io.cucumber.java.After;
-import io.cucumber.java.AfterAll;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -20,14 +18,13 @@ import utilities.LoggerLoad;
 public class Hooks {
     public WebDriver driver;
     DriverFactory driverFactory = new DriverFactory();
- 
-    @Before
-	public void defineBrowser(Scenario scenario) throws Throwable {
-		driverFactory.initializeWebDriver(ConfigReader.browserType());
-        
 
-	 
-	}
+    @Before
+    public void defineBrowser(Scenario scenario) throws Throwable {
+        ConfigReader.readConfig();
+        driverFactory.initializeWebDriver(ConfigReader.browserType());
+
+    }
 
     @AfterStep
     public void afterstep(Scenario scenario) {
@@ -42,14 +39,14 @@ public class Hooks {
 
     @After
     public void afterScenario(Scenario scenario) throws InterruptedException  {
-        Thread.sleep(6000);
-        driverFactory.closeDriver();  
-      
+        //Thread.sleep(6000);
+        driverFactory.closeDriver();
+
     }
 
-    
 
-    // @AfterAll 
+
+    // @AfterAll
     // public static void after() throws InterruptedException {
     //     Thread.sleep(6000);
     //     driverFactory.closeDriver();
