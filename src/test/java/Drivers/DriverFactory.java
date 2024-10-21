@@ -18,22 +18,25 @@ public class DriverFactory {
    public  WebDriver initializeWebDriver(String browser) {
         if (driver.get() == null) { // Ensure WebDriver is only initialized once per thread
             if (browser.equalsIgnoreCase("chrome")) {
-               
+                
                 ChromeOptions options = new ChromeOptions();
-                options.addArguments("--start-maximized"); // Maximize Chrome window
+               // options.addArguments("--headless"); // Enable headless mode
+               options.addArguments("--start-maximized"); // Maximize Chrome window
                 driver.set(new ChromeDriver(options));
             } else if (browser.equalsIgnoreCase("firefox")) {
                // WebDriverManager.firefoxdriver().setup();
                 FirefoxOptions options = new FirefoxOptions();
-                options.addArguments("--width=1920", "--height=1080"); // Maximize Firefox window
+               options.addArguments("--width=1920", "--height=1080"); // Maximize Firefox window
                 driver.set(new FirefoxDriver(options));
-
+               // options.addArguments("--headless"); // Enable headless mode
+             
             } else if (browser.equalsIgnoreCase("edge")) {
                 //WebDriverManager.edgedriver().setup();
                 EdgeOptions options = new EdgeOptions();
                 options.addArguments("start-maximized"); // Maximize Edge window
                 driver.set(new EdgeDriver(options));
-
+               // options.addArguments("--headless"); // Enable headless mode
+             
             } else {
                 throw new RuntimeException("Browser type not supported: " + browser);
             }

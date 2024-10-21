@@ -173,6 +173,14 @@ public class Array_Page {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+    
+    // public void explicitWait(By locator, int timeoutInSeconds) {
+    //     try {
+    //         wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    //     } catch (Exception e) {
+    //         e.printStackTrace();
+    //     }
     }
 
 }

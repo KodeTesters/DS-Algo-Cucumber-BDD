@@ -42,7 +42,7 @@ public class Hooks {
 
     @After
     public void afterScenario(Scenario scenario) throws InterruptedException  {
-        Thread.sleep(6000);
+       // Thread.sleep(6000);
         driverFactory.closeDriver();  
       
     }

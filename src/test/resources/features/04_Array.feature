@@ -144,7 +144,7 @@ Scenario: Validation of Search the Array link
 	When User clicks on Search the Array link 
 	Then User should be redirected to Questions page contains a tryEditor with Run and Submit buttons
 	
-	#Array18
+	@Array18
 Scenario Outline: Validation of valid python code in Practice Questions page for Search for Array link 
 	Given User is on "Question" page of "Search the array" after logged in 
 	When User enters valid Python code from sheet "<SheetName>" and <RowNumber> for the PracticeQuestions
