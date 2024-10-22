@@ -133,13 +133,13 @@ public class Array_Page {
     public void enterPracticeQuestions(String sheetname, int rownumber) throws InvalidFormatException, IOException
     {
         util.waitForElement(answerform);
-        String code=Utility_Methods.getCodefromExcel(sheetname, rownumber);
+        String code=util.getCodefromExcel(sheetname, rownumber);
         util.enterPythonCodeForPractice(code, editorInput);
 
     }
     public String getExpectedResult(String sheetName, Integer rowNumber) throws InvalidFormatException, IOException
     {
-        String expectedResult=Utility_Methods.getResultfromExcel(sheetName, rowNumber);
+        String expectedResult=util.getResultfromExcel(sheetName, rowNumber);
         return expectedResult;
     }
     public String getActualResult()
@@ -166,21 +166,13 @@ public class Array_Page {
     {
         squaresOfASortedArrayLink.click();
     }
-
-    public void explicitWait(int milliseconds) {
-        try {
-            Thread.sleep(milliseconds);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-    
-    // public void explicitWait(By locator, int timeoutInSeconds) {
-    //     try {
-    //         wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-    //     } catch (Exception e) {
-    //         e.printStackTrace();
-    //     }
-    }
+//
+//    public void explicitWait(int milliseconds) {
+//        try {
+//            Thread.sleep(milliseconds);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+ //   }
 
 }

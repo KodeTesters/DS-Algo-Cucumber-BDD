@@ -18,8 +18,8 @@ import Drivers.DriverFactory;
 public class Utility_Methods {
 
     //Utility for methods
-    public static WebDriver driver = DriverFactory.getDriver();
-    public static String ExcelPath = ConfigReader.getexcelfilepath();
+    public  WebDriver driver = DriverFactory.getDriver();
+    public  String ExcelPath = ConfigReader.getexcelfilepath();
 
     public void waitForElement(WebElement element) {
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(element));
@@ -42,7 +42,7 @@ public class Utility_Methods {
             }
         }
     }
-    public static boolean enterPythonCode(WebElement element, String code) {
+    public  boolean enterPythonCode(WebElement element, String code) {
         LoggerLoad.info("Before sending keys to " + element.getText() );
         try {
             new Actions(driver).sendKeys(element, code).perform();
@@ -53,7 +53,7 @@ public class Utility_Methods {
     }
 
 
-    public static String getResultfromExcel(String sheetname, int rownumber) throws InvalidFormatException, IOException {
+    public  String getResultfromExcel(String sheetname, int rownumber) throws InvalidFormatException, IOException {
         ExcelReader reader = new ExcelReader();
         List<Map<String, String>> testdata = reader.getData(ExcelPath, sheetname);
         String result = testdata.get(rownumber).get("Output");
@@ -61,7 +61,7 @@ public class Utility_Methods {
         return result;
     }
 
-    public static String getCodefromExcel(String sheetname, int rownumber) throws InvalidFormatException, IOException {
+    public  String getCodefromExcel(String sheetname, int rownumber) throws InvalidFormatException, IOException {
         ExcelReader reader = new ExcelReader();
         List<Map<String, String>> testdata = reader.getData(ExcelPath, sheetname);
         String code = testdata.get(rownumber).get("PythonCode");
