@@ -4,9 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import Drivers.DriverFactory;
-//import utilities.ConfigReader;
 import utilities.LoggerLoad;
 
 public class Home_Page {
@@ -14,14 +12,10 @@ public class Home_Page {
     public  WebDriver driver =DriverFactory.getDriver();
     String url ="https://dsportalapp.herokuapp.com";
     String homePageurl="https://dsportalapp.herokuapp.com/home";
-    //String url=ConfigReader.applicationUrl();
-    //String homePageurl=ConfigReader.homePage();
     //Get Started Button
     @FindBy (xpath="//button[@class='btn']")WebElement getStartedbtn;
     //alertmessage
     @FindBy(xpath="//div[contains(text(),'You are not logged in')]")WebElement alertMessage;
-
-
     //Home Page
     @FindBy (xpath = "//a[@href ='data-structures-introduction']")WebElement getStartedDSintro;
     @FindBy (xpath = "//a[@href ='array']")WebElement getStartedarray;
@@ -30,8 +24,6 @@ public class Home_Page {
     @FindBy (xpath = "//a[@href ='tree']")WebElement getStartedtree;
     @FindBy (xpath = "//a[@href ='graph']")WebElement getStartedgraph;
     @FindBy (xpath = "//a[@href ='queue']")WebElement getStartedqueue;
-
-
     //dropdown
     @FindBy (xpath="//a[@class='nav-link dropdown-toggle']")WebElement dsDropdown;
     //@FindBy (xpath="//div[@class='dropdown-menu']")WebElement dsDropdwn;
@@ -70,7 +62,6 @@ public class Home_Page {
         String alertMsg=alertMessage.getText();
         return alertMsg;
     }
-
 
     //Home Page Validations
     //Home Page URL
@@ -161,10 +152,4 @@ public class Home_Page {
         String title = driver.getTitle();
         return title;
     }
-
-
-
-
-
-
 }

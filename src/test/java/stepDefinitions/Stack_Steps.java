@@ -13,7 +13,7 @@ import utilities.LoggerLoad;
 public class Stack_Steps {
 Stack_Page stackpage = new Stack_Page();
 
-	
+
 	@When("The User clicks on the Stack Get Started button")
 	public void the_user_clicks_on_the_stack_get_started_button() {
 	   stackpage.getstarted_Stack();

@@ -17,8 +17,7 @@ import utilities.LoggerLoad;
 
 public class Tree_Steps {
 
-
-    public static WebDriver driver =DriverFactory.getDriver();
+    public  WebDriver driver =DriverFactory.getDriver();
     Tree_Page tp = new Tree_Page();
     ConfigReader cr = new ConfigReader();
     static String Tittle;

@@ -6,19 +6,20 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import Drivers.DriverFactory;
+import org.w3c.dom.html.HTMLInputElement;
 import utilities.ConfigReader;
 import utilities.LoggerLoad;
 import utilities.Utility_Methods;
 
 public class Stack_Page {
 
-	 public  WebDriver driver = DriverFactory.getDriver();
-	  String tryEditorURL = ConfigReader.tryEditorURL();
+	public WebDriver driver = DriverFactory.getDriver();
+	String tryEditorURL = ConfigReader.tryEditorURL();
 
-	  Utility_Methods util = new Utility_Methods(); // This is for webelement wait 
-	
-	  //Home page
-     @FindBy(xpath = "//a[@href='stack']")WebElement GetStartedLink; 
+	Utility_Methods util = new Utility_Methods(); // This is for webelement wait
+
+	//Home page
+	@FindBy(xpath = "//a[@href='stack']")WebElement GetStartedLink;
 
 	//StackPage
 
@@ -29,14 +30,15 @@ public class Stack_Page {
 	@FindBy(xpath = "//a[@class='btn btn-info']")WebElement TryhereButton;
 	@FindBy(xpath = "//textarea[@tabindex='0']")WebElement TextEditor;
 	@FindBy(xpath = "//button[text()='Run']")WebElement RunButton;
-	@FindBy(xpath = "//pre[@id='output']")WebElement EditorOutput; 
+	@FindBy(xpath = "//pre[@id='output']")WebElement EditorOutput;
+	@FindBy (id="answer_form") WebElement answerform;
 
 	public Stack_Page() {
 		PageFactory.initElements(driver, this);
 	}
 
 	public void getstarted_Stack() {
-		
+
 		GetStartedLink.click();
 		LoggerLoad.info("User clicks on Stack Get Started link");
 	}
@@ -46,11 +48,9 @@ public class Stack_Page {
 		return title;
 	}
 
-
-
 	public void navigate(String pagename) {
 		String urlName = ConfigReader.geturl(pagename);
-		driver.get(urlName); 
+		driver.get(urlName);
 	}
 
 	public void clickOperationsInStackLink() {
@@ -58,17 +58,19 @@ public class Stack_Page {
 		LoggerLoad.info("User clicks on Operations in Stack link");
 	}
 
-	public void clickTryHerebutton () {	
+	public void clickTryHerebutton () {
 		TryhereButton.click();
 		LoggerLoad.info("User clicks On Tryhere button in stack page");
 	}
 
 	public void enterCode(String pythonCode) throws InterruptedException {
+		util.waitForElement(answerform);
+		answerform.click();
 		TextEditor.sendKeys(pythonCode);
 	}
 
 	public void clickRunBtn () {
-		 RunButton.click();
+		RunButton.click();
 
 	}
 	public String getEditorOutput() {
@@ -78,7 +80,7 @@ public class Stack_Page {
 		return Output;
 	}
 	public String getAlertText() {
-		
+
 		String alertMsg = driver.switchTo().alert().getText();
 		LoggerLoad.info("The Error Message is:" +alertMsg);
 		driver.switchTo().alert().accept();
@@ -99,4 +101,4 @@ public class Stack_Page {
 		PracticeQuestionsLink.click();
 		LoggerLoad.info("User clicks On Practice Questions link in stack page");
 	}
-	}
+}
