@@ -39,6 +39,7 @@ public class Hooks {
 
     @After
     public void afterScenario(Scenario scenario) {
+       
         driverFactory.closeDriver();
 
     }

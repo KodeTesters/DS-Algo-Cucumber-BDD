@@ -20,9 +20,9 @@ public class Register_Steps {
 
     Register_Page RP = new Register_Page();
     String Excelpath=ConfigReader.getexcelfilepath();
-    static String username;
-    static String password;
-    static String confirmpwd;
+     String username;
+     String password;
+     String confirmpwd;
 
     @When("User click Register with username as {string} only")
     public void user_click_register_with_username_as_only(String UserName) {

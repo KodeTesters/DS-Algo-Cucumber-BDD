@@ -29,8 +29,8 @@ Feature: SignIn Action
     And User clicks login button
     Then User verify the message as "Invalid Username and Password"
 
-    Examples: 
-      | username | password |
+    Examples:
+      | username    | password   |
       | kodetesters | numpyninja |
 
   Scenario Outline: User  Login with  valid "<username>" and "<password>"
@@ -39,8 +39,8 @@ Feature: SignIn Action
     And User clicks on login button
     Then It should navigate to the home page with a message " You are logged in  "
 
-    Examples: 
+    Examples:
       | Sheetname | RowNumber |
-      | SignIn    |         0 |
+      | SignIn    | 0         |
 
- 
+

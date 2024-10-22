@@ -10,7 +10,7 @@ import Drivers.DriverFactory;  // Import the DriverFactory class
 		"pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, // reporting purpose
 		monochrome = true, // console output
-		tags = "", // tags from feature file
+		tags = "@Treepage", // tags from feature file
 		features = { "src/test/resources/features" }, // location of feature files
 		glue = { "stepDefinitions", "hooks" }) // location of step definition files
 public class TestRunner extends AbstractTestNGCucumberTests {
@@ -27,12 +27,13 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 	}
 
 	@Override
-	@DataProvider(parallel = false)
+	@DataProvider(parallel = true)
 	public Object[][] scenarios() {
 		return super.scenarios();
 	}
 
 	@BeforeTest
+	@BeforeMethod
 	@Parameters({ "browser" })
 	public void defineBrowser( @Optional("chrome") String browser) throws Throwable {
 		ConfigReader.readConfig();  // Load configurations

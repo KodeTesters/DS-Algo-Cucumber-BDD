@@ -20,8 +20,8 @@ import utilities.LoggerLoad;
 
 public class SignIn_Steps {
 	SignIn_Page signIn = new SignIn_Page();
-	static String username;
-	static String password;
+	String username;
+	String password;
 	String Excelpath=ConfigReader.getexcelfilepath();
 	
 	
