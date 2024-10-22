@@ -39,17 +39,8 @@ public class Hooks {
 
     @After
     public void afterScenario(Scenario scenario) {
-        //Thread.sleep(6000);
-        //driverFactory.closeDriver();
+        driverFactory.closeDriver();
 
     }
-
-
-
-    // @AfterAll
-    // public static void after() throws InterruptedException {
-    //     Thread.sleep(6000);
-    //     driverFactory.closeDriver();
-    // }
 
 }
