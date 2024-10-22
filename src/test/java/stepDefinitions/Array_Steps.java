@@ -23,9 +23,9 @@ public class Array_Steps {
     Utility_Methods util=new Utility_Methods();
     Array_Page array=new Array_Page();
 
-    static String PythonCode;
-    static String Output;
-    static String ExpectedResult,ExpectedError,expMsg;
+     String PythonCode;
+     String Output;
+     String ExpectedResult,ExpectedError,expMsg;
     String Excelpath=ConfigReader.getexcelfilepath();
 
 

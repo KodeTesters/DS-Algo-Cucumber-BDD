@@ -21,7 +21,7 @@ public class Tree_Steps {
     public static WebDriver driver =DriverFactory.getDriver();
     Tree_Page tp = new Tree_Page();
     ConfigReader cr = new ConfigReader();
-    static String Tittle;
+    String Tittle;
 
     @When("User click on the Tree Get Started button")
     public void user_click_on_the_tree_get_started_button() {
