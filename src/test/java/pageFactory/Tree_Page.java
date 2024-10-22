@@ -104,7 +104,7 @@ public class Tree_Page {
 
     public void clickRunBtn() throws InterruptedException {
         LoggerLoad.info("User Clicked Run button");
-        Thread.sleep(1000);
+       // Thread.sleep(1000);
         runBtn.click();
     }
     public String getOutput() {
