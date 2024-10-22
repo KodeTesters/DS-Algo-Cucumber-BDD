@@ -10,7 +10,7 @@ import Drivers.DriverFactory;  // Import the DriverFactory class
 		"pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, // reporting purpose
 		monochrome = true, // console output
-		tags = "@Treepage", // tags from feature file
+		tags = " ", // tags from feature file
 		features = { "src/test/resources/features" }, // location of feature files
 		glue = { "stepDefinitions", "hooks" }) // location of step definition files
 public class TestRunner extends AbstractTestNGCucumberTests {
