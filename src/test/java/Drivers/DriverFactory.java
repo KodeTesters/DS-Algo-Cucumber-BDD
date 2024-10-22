@@ -15,7 +15,7 @@ public class DriverFactory {
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     // Initialize WebDriver
-   public  WebDriver initializeWebDriver(String browser) {
+   public static WebDriver initializeWebDriver(String browser) {
         if (driver.get() == null) { // Ensure WebDriver is only initialized once per thread
             if (browser.equalsIgnoreCase("chrome")) {
                 
