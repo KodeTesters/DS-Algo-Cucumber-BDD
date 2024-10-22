@@ -1,26 +1,22 @@
 package pageFactory;
 
 import java.io.IOException;
+import java.time.Clock;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import Drivers.DriverFactory;
 import utilities.ConfigReader;
 import utilities.LoggerLoad;
 import utilities.Utility_Methods;
-
 public class Array_Page {
 
-    public  WebDriver driver =DriverFactory.getDriver();
-
+    //public  WebDriver driver =DriverFactory.getDriver();
     Utility_Methods util=new Utility_Methods();
-
-    String tryEditorURL=ConfigReader.tryEditorURL();
-    //String url =ConfigReader.applicationUrl();
+    // String tryEditorURL=ConfigReader.tryEditorURL();
     String arrayPageurl=ConfigReader.arrayPageURL();
 
     @FindBy (xpath="//a[@href='arrays-in-python']")WebElement arraysInPythonLink;
@@ -32,29 +28,26 @@ public class Array_Page {
     @FindBy (xpath="//a[text()='Max Consecutive Ones']")WebElement maxConsecutiveOnesLink;
     @FindBy (xpath="//a[text()='Find Numbers with Even Number of Digits']") WebElement findNumbersWithEvenNumberOfDigitsLink;
     @FindBy (xpath="//a[text()='Squares of  a Sorted Array']") WebElement squaresOfASortedArrayLink;
-
     @FindBy (xpath = "//a[@href ='array']")WebElement getStartedarray;
     @FindBy (xpath="//a[@href='/tryEditor']")WebElement tryHereLink;
-    @FindBy (xpath="//textarea[@tabindex='0']")WebElement editorInput;
+    @FindBy (xpath="//form/div/div/div/textarea")WebElement editorInput;
     @FindBy (xpath="//button[text()='Run']") WebElement runButton;
     @FindBy (xpath="//pre[@id='output']") WebElement output;
     @FindBy (id="answer_form") WebElement answerform;
     @FindBy (xpath="//input[@value='Submit']") WebElement submitButton;
 
-
-
     public Array_Page()
     {
-        PageFactory.initElements(driver,this);
+        PageFactory.initElements(util.driver,this);
     }
     public void arraypage() {
-        driver.get(arrayPageurl);
+        util.driver.get(arrayPageurl);
 
     }
     public void  navigateTo(String pagename)
     {
         String urlName= ConfigReader.geturl(pagename);
-        driver.get(urlName);
+        util.driver.get(urlName);
     }
 
 
@@ -65,7 +58,7 @@ public class Array_Page {
     }
     public String getPageTitle()
     {
-        String Title=driver.getTitle();
+        String Title=util.driver.getTitle();
         return Title;
     }
 
@@ -79,8 +72,10 @@ public class Array_Page {
         tryHereLink.click();
     }
 
-    public void fetchPythonCode(String PythonCode)
-    {
+    public void fetchPythonCode(String PythonCode) throws InterruptedException {
+        System.out.println("Editor Input: "+editorInput);
+        util.waitForElement(answerform);
+        answerform.click();
         editorInput.sendKeys(PythonCode);
     }
 
@@ -98,8 +93,8 @@ public class Array_Page {
 
     public String fetchErrorMessage()
     {
-        String errorMessage=driver.switchTo().alert().getText();
-        driver.switchTo().alert().accept();
+        String errorMessage=util.driver.switchTo().alert().getText();
+        util.driver.switchTo().alert().accept();
         return errorMessage;
     }
 
@@ -133,6 +128,7 @@ public class Array_Page {
     public void enterPracticeQuestions(String sheetname, int rownumber) throws InvalidFormatException, IOException
     {
         util.waitForElement(answerform);
+        answerform.click();
         String code=util.getCodefromExcel(sheetname, rownumber);
         util.enterPythonCodeForPractice(code, editorInput);
 
@@ -144,7 +140,6 @@ public class Array_Page {
     }
     public String getActualResult()
     {
-        //util.waitForElement(output);
         return output.getText();
     }
 
@@ -166,13 +161,5 @@ public class Array_Page {
     {
         squaresOfASortedArrayLink.click();
     }
-//
-//    public void explicitWait(int milliseconds) {
-//        try {
-//            Thread.sleep(milliseconds);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
- //   }
 
 }

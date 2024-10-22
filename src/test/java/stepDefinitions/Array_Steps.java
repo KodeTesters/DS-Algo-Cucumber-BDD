@@ -19,13 +19,11 @@ import utilities.Utility_Methods;
 
 public class Array_Steps {
 
-    //Array Step Definitions
-    Utility_Methods util=new Utility_Methods();
     Array_Page array=new Array_Page();
 
-     String PythonCode;
-     String Output;
-     String ExpectedResult,ExpectedError,expMsg;
+    String PythonCode;
+    String Output;
+    String ExpectedResult,ExpectedError,expMsg;
     String Excelpath=ConfigReader.getexcelfilepath();
 
 
@@ -83,13 +81,11 @@ public class Array_Steps {
     }
 
     @When("User enters valid Python code from sheet {string} and {int}")
-    public void user_enters_valid_python_code_from_sheet_and(String SheetName, Integer RowNumber) throws InvalidFormatException, IOException
-    {
+    public void user_enters_valid_python_code_from_sheet_and(String SheetName, Integer RowNumber) throws InvalidFormatException, IOException, InterruptedException {
         LoggerLoad.info("User is on Try Editor page");
         ExcelReader reader = new ExcelReader();
 
         List<Map<String, String>> testdata = reader.getData(Excelpath, SheetName);
-        //array.explicitWait(1000);
 
         PythonCode = testdata.get(RowNumber).get("PythonCode");
         ExpectedResult=testdata.get(RowNumber).get("Output");
@@ -98,15 +94,11 @@ public class Array_Steps {
         LoggerLoad.info("User enters PythonCode as \" " + PythonCode);
         if ( PythonCode!= null )
             array.fetchPythonCode(PythonCode);
-       // array.explicitWait(1000);
-
-
     }
 
     @When("User clicks on Run button")
     public void user_clicks_on_run_button()
     {
-      //  array.explicitWait(1000);
         LoggerLoad.info("User clicks on Run Button");
         array.clickRunButton();
 
@@ -124,7 +116,7 @@ public class Array_Steps {
     }
 
     @When("User enters invalid Python code from sheet {string} and {int}")
-    public void user_enters_invalid_python_code_from_sheet_and(String SheetName, Integer RowNumber) throws InvalidFormatException, IOException {
+    public void user_enters_invalid_python_code_from_sheet_and(String SheetName, Integer RowNumber) throws InvalidFormatException, IOException, InterruptedException {
 
         LoggerLoad.info("User is on Try Editor page");
         ExcelReader reader = new ExcelReader();

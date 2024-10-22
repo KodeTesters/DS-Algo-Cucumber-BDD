@@ -14,8 +14,8 @@ Feature: Linked List page validation dsalgo
     When The user selecting linkedlist item from the drop down menu
     Then The user redirected to "Linked List"  Page
 
-  
-  Scenario: User navigated to "Introduction" page 
+  @TS_02_L
+  Scenario: User navigated to "Introduction" page
     Given The user is on the "Linked List page" after logged in
     When The user clicks Introduction link
     Then The user move to "Introduction" of Linked List Page
@@ -29,17 +29,17 @@ Feature: Linked List page validation dsalgo
   
   Scenario: User run the code in tryEditor with valid input for Introduction page
     Given The user is in a try here page having tryEditor with a Run button to test
-    When The user Enter valid python code 
-    |print("LinkedList Introduction")|
-    And click on run button
+    When The user Enter valid python code
+      |print("LinkedList Introduction")|
+    And User clicks on run button
     Then The user should get the Run output
 
   
   Scenario: The user getting error message with invalid python code for Introduction page
     Given The user is in a try here page having tryEditor with a Run button to test
-    When The user Enter invalid python code 
-    |print LinkedList Introduction|
-    And click on run button
+    When The user Enter invalid python code
+      |print LinkedList Introduction|
+    And User clicks on run button
     Then The user get the error message
 
   
@@ -57,17 +57,17 @@ Feature: Linked List page validation dsalgo
   
   Scenario: User run the code in tryEditor with valid input for Creating a Linked List page
     Given The user is in a try here page having tryEditor with a Run button to test
-    When The user Enter valid python code 
-    |print("Creating a Linked List")|
-    And click on run button
+    When The user Enter valid python code
+      |print("Creating a Linked List")|
+    And User clicks on run button
     Then The user should get the Run output
 
   
   Scenario: The user getting error message with invalid python code for Creating a Linked List page
     Given The user is in a try here page having tryEditor with a Run button to test
-    When The user Enter invalid python code 
-    |print Creating a Linked List|
-    And click on run button
+    When The user Enter invalid python code
+      |print Creating a Linked List|
+    And User clicks on run button
     Then The user get the error message
 
   
@@ -85,17 +85,17 @@ Feature: Linked List page validation dsalgo
   
   Scenario: User run the code in tryEditor with valid input for Types of Linked List page
     Given The user is in a try here page having tryEditor with a Run button to test
-    When The user Enter valid python code 
-    |print("Types of Linked List")|
-    And click on run button
+    When The user Enter valid python code
+      |print("Types of Linked List")|
+    And User clicks on run button
     Then The user should get the Run output
 
   
   Scenario: The user getting error message with invalid python code for Types of Linked List page
     Given The user is in a try here page having tryEditor with a Run button to test
-    When The user Enter invalid python code 
-    |print Types of Linked List|
-    And click on run button
+    When The user Enter invalid python code
+      |print Types of Linked List|
+    And User clicks on run button
     Then The user get the error message
 
   
@@ -113,17 +113,17 @@ Feature: Linked List page validation dsalgo
   
   Scenario: User run the code in tryEditor with valid input for Implement Linked List in Python page
     Given The user is in a try here page having tryEditor with a Run button to test
-    When The user Enter valid python code 
-    |print("Implement Linked List in Python")|
-    And click on run button
+    When The user Enter valid python code
+      |print("Implement Linked List in Python")|
+    And User clicks on run button
     Then The user should get the Run output
 
   
   Scenario: The user getting error message with invalid python code for Implement Linked List in Python page
     Given The user is in a try here page having tryEditor with a Run button to test
-    When The user Enter invalid python code 
-    |print Implement Linked List in Python|
-    And click on run button
+    When The user Enter invalid python code
+      |print Implement Linked List in Python|
+    And User clicks on run button
     Then The user get the error message
 
   
@@ -143,15 +143,15 @@ Feature: Linked List page validation dsalgo
     Given The user is in a try here page having tryEditor with a Run button to test
     When The user Enter valid python code
       | print("Traversal") |
-    And click on run button
+    And User clicks on run button
     Then The user should get the Run output
 
   
   Scenario: The user getting error message with invalid python code for Traversal page
     Given The user is in a try here page having tryEditor with a Run button to test
-    When The user Enter invalid python code 
-    |print Traversal|
-    And click on run button
+    When The user Enter invalid python code
+      |print Traversal|
+    And User clicks on run button
     Then The user get the error message
 
   
@@ -169,9 +169,9 @@ Feature: Linked List page validation dsalgo
   
   Scenario: User run the code in tryEditor with valid input for Insertion page
     Given The user is in a try here page having tryEditor with a Run button to test
-    When The user Enter valid python code 
-    |print("Insertion")|
-    And click on run button
+    When The user Enter valid python code
+      |print("Insertion")|
+    And User clicks on run button
     Then The user should get the Run output
 
   
@@ -179,7 +179,7 @@ Feature: Linked List page validation dsalgo
     Given The user is in a try here page having tryEditor with a Run button to test
     When The user Enter invalid python code
       | print Insertion |
-    And click on run button
+    And User clicks on run button
     Then The user get the error message
 
   
@@ -199,7 +199,7 @@ Feature: Linked List page validation dsalgo
     Given The user is in a try here page having tryEditor with a Run button to test
     When The user Enter valid python code
       | print("Deletion") |
-    And click on run button
+    And User clicks on run button
     Then The user should get the Run output
 
   
@@ -207,7 +207,7 @@ Feature: Linked List page validation dsalgo
     Given The user is in a try here page having tryEditor with a Run button to test
     When The user Enter invalid python code
       | print Deletion |
-    And click on run button
+    And User clicks on run button
     Then The user get the error message
   
   Scenario: The user validating "Practice Questions" page

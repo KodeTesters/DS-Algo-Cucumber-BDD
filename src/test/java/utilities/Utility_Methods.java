@@ -20,25 +20,23 @@ public class Utility_Methods {
     //Utility for methods
     public  WebDriver driver = DriverFactory.getDriver();
     public  String ExcelPath = ConfigReader.getexcelfilepath();
+    WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(20));
+    public  void waitForElement(WebElement element) {
 
-    public void waitForElement(WebElement element) {
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(element));
+        webDriverWait.until(ExpectedConditions.visibilityOf(element));
 
     }
 
     public void enterPythonCodeForPractice(String code, WebElement element)
     {
         new Actions(driver).keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys(Keys.DELETE).perform();
-
-        //LoggerLoad.info("Clearing text before entering code in "+element.getText()+" enterCodePractice");
-
         String[] str1 = code.split("\n");
         for (int i = 0; i < str1.length; i++) {
             if (str1[i].equalsIgnoreCase("\\b")) {
                 element.sendKeys(Keys.BACK_SPACE);
             } else {
                 element.sendKeys(str1[i]);
-                element.sendKeys(Keys.RETURN);
+                element.sendKeys(Keys.ENTER);
             }
         }
     }
@@ -52,8 +50,7 @@ public class Utility_Methods {
         return true;
     }
 
-
-    public  String getResultfromExcel(String sheetname, int rownumber) throws InvalidFormatException, IOException {
+    public String getResultfromExcel(String sheetname, int rownumber) throws InvalidFormatException, IOException {
         ExcelReader reader = new ExcelReader();
         List<Map<String, String>> testdata = reader.getData(ExcelPath, sheetname);
         String result = testdata.get(rownumber).get("Output");
@@ -61,7 +58,7 @@ public class Utility_Methods {
         return result;
     }
 
-    public  String getCodefromExcel(String sheetname, int rownumber) throws InvalidFormatException, IOException {
+    public String getCodefromExcel(String sheetname, int rownumber) throws InvalidFormatException, IOException {
         ExcelReader reader = new ExcelReader();
         List<Map<String, String>> testdata = reader.getData(ExcelPath, sheetname);
         String code = testdata.get(rownumber).get("PythonCode");

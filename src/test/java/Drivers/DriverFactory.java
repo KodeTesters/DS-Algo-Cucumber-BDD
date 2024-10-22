@@ -7,24 +7,27 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import utilities.ConfigReader;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverFactory {
 
     // Thread-safe WebDriver instance
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    public static  ConfigReader configReader = new ConfigReader();
+
 
     // Initialize WebDriver
-   public static WebDriver initializeWebDriver(String browser) {
+    public  WebDriver initializeWebDriver(String browser) {
         if (driver.get() == null) { // Ensure WebDriver is only initialized once per thread
             if (browser.equalsIgnoreCase("chrome")) {
-                
+
                 ChromeOptions options = new ChromeOptions();
                // options.addArguments("--headless"); // Enable headless mode
                options.addArguments("--start-maximized"); // Maximize Chrome window
                 driver.set(new ChromeDriver(options));
             } else if (browser.equalsIgnoreCase("firefox")) {
-               // WebDriverManager.firefoxdriver().setup();
+                // WebDriverManager.firefoxdriver().setup();
                 FirefoxOptions options = new FirefoxOptions();
                options.addArguments("--width=1920", "--height=1080"); // Maximize Firefox window
                 driver.set(new FirefoxDriver(options));
@@ -54,6 +57,9 @@ public class DriverFactory {
             throw new RuntimeException("WebDriver is not initialized. Please call initializeWebDriver() first.");
         }
         return driver.get();
+    }
+    public static ConfigReader configReader() {
+        return configReader();
     }
 
     // Close the WebDriver

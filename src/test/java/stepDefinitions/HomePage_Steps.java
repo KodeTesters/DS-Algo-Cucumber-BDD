@@ -14,13 +14,10 @@ public class HomePage_Steps {
 
     Home_Page homePage =new Home_Page();
 
-
     @Given("user opens the dsalgo portal link")
     public void user_opens_the_dsalgo_portal_link() {
         LoggerLoad.info("-----DSAlgo Portal-----");
         homePage.dsalgoportal();
-
-
     }
 
     @When("user clicks on {string} button")
