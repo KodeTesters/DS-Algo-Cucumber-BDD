@@ -42,7 +42,7 @@ public class LinkedList_Page {
     WebElement deletionLink;
     @FindBy(xpath = "//a[@href='/linked-list/practice']")
     WebElement practiceQuestionLink;
-
+    @FindBy (id="answer_form") WebElement answerform;
     @FindBy(xpath = "//a[@href='/tryEditor']")
     WebElement tryHereLink;
     @FindBy (xpath ="//form/div/div/div/textarea")
@@ -80,6 +80,8 @@ public class LinkedList_Page {
     }
 
     public void Enter_PythonCode(String pythonCode)throws InterruptedException {
+        util.waitForElement(answerform);
+        answerform.click();
         editorInput.sendKeys(pythonCode);
     }
 

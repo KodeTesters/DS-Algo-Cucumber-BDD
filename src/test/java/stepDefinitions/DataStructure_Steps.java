@@ -11,8 +11,6 @@ import utilities.LoggerLoad;
 public class DataStructure_Steps {
 	DataStructure_Page dspage = new DataStructure_Page();
 
-
-	
 	@When("user clicks on datastructure getstarted")
 	public void user_clicks_on_datastructure_getstarted() {
 		LoggerLoad.info("User Clicks on get started link");

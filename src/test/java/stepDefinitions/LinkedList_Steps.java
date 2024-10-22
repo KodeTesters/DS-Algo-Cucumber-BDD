@@ -13,9 +13,6 @@ import utilities.LoggerLoad;
 public class LinkedList_Steps {
     LinkedList_Page lList = new LinkedList_Page();
 
-
-
-
     @When("The user selecting linkedlist item from the drop down menu")
     public void the_user_selecting_linkedlist_item_from_the_drop_down_menu() {
         LoggerLoad.info("The User Select Linked List From drop down menu ");
@@ -81,6 +78,7 @@ public class LinkedList_Steps {
     {
         List<List<String>>data=pythonCode.cells();
         lList.Enter_PythonCode(data.get(0).get(0));
+
     }
 
     @When("user click on Run button")

@@ -10,11 +10,8 @@ import utilities.ConfigReader;
 import utilities.LoggerLoad;
 
 public class Tree_Page {
-    public  WebDriver driver =DriverFactory.getDriver();
+    public WebDriver driver =DriverFactory.getDriver();
     ConfigReader cr = new ConfigReader();
-
-
-
     @FindBy(xpath="//div[@class=\"col\"][6]//a") WebElement TreeGetStart;
     @FindBy(linkText="Overview of Trees") WebElement OverOfTree;
     @FindBy(linkText="Terminologies") WebElement Terminologies;
@@ -34,8 +31,6 @@ public class Tree_Page {
     @FindBy(xpath ="//button[text()='Run']") WebElement runBtn;
     @FindBy(id="output") WebElement runOutput;
     @FindBy(linkText="Practice Questions") WebElement PQues;
-
-
 
     public Tree_Page() {
         PageFactory.initElements(driver, this);
@@ -116,7 +111,6 @@ public class Tree_Page {
         LoggerLoad.info("Output after Run Statement:" +runOutput.getText());
         String Result = runOutput.getText();
         return Result ;
-
     }
     public String getErrormsg() {
         String errormsg = driver.switchTo().alert().getText();
@@ -127,9 +121,5 @@ public class Tree_Page {
         LoggerLoad.info("User Clicks the Practice Questions link");
         PQues.click();
     }
-
-
-
-
 
 }
